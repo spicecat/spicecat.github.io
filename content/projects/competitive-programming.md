@@ -4,7 +4,7 @@ type: page
 ---
 
 
-- [USACO GUIDE](https://github.com/cpinitiative/usaco-guide): I am a contributor
+- [USACO Guide](https://github.com/cpinitiative/usaco-guide): I am a contributor
 
 - [Library](https://github.com/Ta180m/Library): Clean templates and algorithm implementations that I use
 
