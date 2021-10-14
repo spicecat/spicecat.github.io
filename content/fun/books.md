@@ -4,30 +4,16 @@ type: page
 ---
 
 
-### Origami and Math - John Montroll
+- **Origami and Math - John Montroll**: My favorite origami book.
 
-My favorite origami book.
+- **1984 - George Orwell**: The book that Amazon erased from people's Kindles...
 
-### 1984 - George Orwell
+- **What If? - Randall Munroe**: The What If? blog but as a book.
 
-The book that Amazon erased from people's Kindles...
+- **The Elements - Theodore Gray**: Lovely periodic table book with large beautiful pictures.
 
-### What If? - Randall Munroe
+- **Lies My Teacher Told Me - James Loewen**: Everything your history class got wrong.
 
-The What If? blog but as a book.
+- **Enlightenment Now - Stephen Pinker**: Supposedly Bill Gates's favorite book of all time.
 
-### The Elements - Theodore Gray
-
-Lovely periodic table book with large beautiful pictures.
-
-### Lies My Teacher Told Me - James Loewen
-
-Everything your history class got wrong.
-
-### Enlightenment Now - Stephen Pinker
-
-Supposedly Bill Gates's favorite book of all time.
-
-### The Code Book - Simon Singh
-
-A very accessible book about cryptography.
+- **The Code Book - Simon Singh**: A very accessible book about cryptography.
