@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://ta180m.github.io/'
 languageCode = 'en-us'
 title = 'Some Random Website'
 theme = 'gokarna'
@@ -15,15 +15,20 @@ theme = 'gokarna'
     url = '/projects/'
     weight = 2
   [[menu.main]]
+    identifier = 'fun'
+    name = 'Fun'
+    url = '/fun/'
+    weight = 3
+  [[menu.main]]
     identifier = 'tags'
     name = 'Tags'
     url = '/tags/'
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = 'github'
     url = 'https://github.com/Ta180m/ta180m.github.io'
     pre = '<span data-feather="github"></span>'
-    weight = 4
+    weight = 5
 
 [params]
   avatarURL = '/fun/dodecahedra/render-cropped.png'
