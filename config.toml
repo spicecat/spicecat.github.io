@@ -1,0 +1,9 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Some Random Website'
+theme = 'gokarna'
+
+[params]
+  avatarURL = '/fun/dodecahedra/render-cropped.png'
+  description = 'Hello!'
+  accentColor = '#00dd42'
