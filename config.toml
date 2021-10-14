@@ -5,9 +5,9 @@ theme = 'gokarna'
 
 [menu]
   [[menu.main]]
-    identifier = 'blog'
-    name = 'Blog'
-    url = '/blog/'
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts/'
     pre = '<span data-feather="book"></span>'
     weight = 1
   [[menu.main]]
