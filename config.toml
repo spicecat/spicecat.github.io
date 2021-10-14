@@ -8,33 +8,37 @@ theme = 'gokarna'
     identifier = 'blog'
     name = 'Blog'
     url = '/blog/'
+    pre = '<span data-feather="book"></span>'
     weight = 1
   [[menu.main]]
     identifier = 'projects'
     name = 'Projects'
     url = '/projects/'
+    pre = '<span data-feather="folder"></span>'
     weight = 2
   [[menu.main]]
     identifier = 'fun'
     name = 'Fun'
     url = '/fun/'
+    pre = '<span data-feather="smile"></span>'
     weight = 3
   [[menu.main]]
     identifier = 'tags'
     name = 'Tags'
     url = '/tags/'
+    pre = '<span data-feather="tag"></span>'
     weight = 4
   [[menu.main]]
     identifier = 'github'
+    name = 'GitHub'
     url = 'https://github.com/Ta180m/ta180m.github.io'
     pre = '<span data-feather="github"></span>'
     weight = 5
 
 [params]
-  avatarURL = '/fun/dodecahedra/render-cropped.png'
+  avatarURL = '/dodecahedra/render-cropped.png'
   description = 'Hello! I’m Anthony Wang, a programming, math, and science enthusiast!'
   accentColor = '#00dd42'
-  #footer = 'Made with ❤️ by Ta180m'
   socialIcons = [
       {name = 'protonmail', url = 'contact'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
