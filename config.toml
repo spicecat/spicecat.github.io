@@ -53,4 +53,5 @@ theme = 'gokarna'
       {name = 'gitea', url = 'https://git.exozy.me/Ta180m/'},
       {name = 'github', url = 'https://github.com/Ta180m/'},
       {name = 'codeforces', url = 'https://codeforces.com/profile/Ta180m'},
+      {name = 'archlinux', url = 'https://aur.archlinux.org/account/Ta180m/'},
     ]
