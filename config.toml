@@ -5,10 +5,10 @@ theme = 'gokarna'
 
 [menu]
   [[menu.main]]
-    identifier = 'posts'
-    name = 'Posts'
-    url = '/posts/'
-    pre = '<span data-feather="message-circle"></span>'
+    identifier = 'blog'
+    name = 'Blog'
+    url = '/blog/'
+    pre = '<span data-feather="book"></span>'
     weight = 1
   [[menu.main]]
     identifier = 'projects'
