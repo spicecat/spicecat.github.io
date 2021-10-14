@@ -1,0 +1,40 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Some Random Website'
+theme = 'gokarna'
+
+[menu]
+  [[menu.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    url = '/blog/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'projects'
+    name = 'Projects'
+    url = '/projects/'
+    weight = 2
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 3
+  [[menu.main]]
+    identifier = 'github'
+    url = 'https://github.com/Ta180m/ta180m.github.io'
+    pre = '<span data-feather="github"></span>'
+    weight = 4
+
+[params]
+  avatarURL = '/fun/dodecahedra/render-cropped.png'
+  description = 'Hello!'
+  accentColor = '#00dd42'
+  #footer = 'Made with ❤️ by Ta180m'
+  socialIcons = [
+      {name = 'protonmail', url = 'mailto:ta180m@pm.me'},
+      {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
+      {name = 'mastodon', usrl = 'https://social.exozy.me/@ta180m'},
+      {name = 'gitea', url = 'https://git.exozy.me/Ta180m/'},
+      {name = 'github', url = 'https://github.com/Ta180m/'},
+      {name = 'codeforces', url = 'https://codeforces.com/profile/Ta180m'},
+    ]
