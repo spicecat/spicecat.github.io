@@ -4,11 +4,11 @@ type: page
 ---
 
 
-- **Operating System**: [Arch Linux](/blog/2021/02/14/i-btw-use-arch.html)
+- **Operating System**: [Arch Linux](https://github.com/Ta180m/blog/blob/main/_posts/2021-02-14-i-btw-use-arch.md)
 
 - **Desktop environment**: [KDE Plasma](https://www.dedoimedo.com/computers/plasma-desktop-awesome.html)
 
-- **Shell**: Fish, Bash
+- **Shell**: Fish
 
 - **Terminal**: Konsole, Yakuake
 
@@ -20,9 +20,9 @@ type: page
 
 - **IDE**: [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
 
-- **Office**: LibreOffice, [Nextcloud](https://cloud.exozy.me/Nextcloud)
+- **Office**: LibreOffice, [Nextcloud](https://cloud.exozy.me)
 
-- **Mail client**: Thunderbird, [Nextcloud Mail](https://cloud.exozy.me/apps/mail/)
+- **Mail client**: Thunderbird
 
 - **Notes**: Xournal++, [Nextcloud Notes](https://cloud.exozy.me/apps/notes/)
 
@@ -34,6 +34,6 @@ type: page
 
 - **Video and streaming**: OBS Studio and [PeerTube](https://tube.exozy.me/)
 
-- **Virtualization**: [QEMU/KVM](/blog/2021/01/07/fun-with-qemu-kvm-2.html)
+- **Virtualization**: QEMU/KVM
 
-- **Gaming**: RetroArch, [MultiMC5 Offline](https://github.com/Ponywka/MultiMC5-with-offline)
+- **Gaming**: RetroArch, [miscellaneous games](../games)
