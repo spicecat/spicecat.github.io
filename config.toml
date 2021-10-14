@@ -32,13 +32,13 @@ theme = 'gokarna'
 
 [params]
   avatarURL = '/fun/dodecahedra/render-cropped.png'
-  description = 'Hello!'
+  description = 'Hello! I’m Anthony Wang, a programming, math, and science enthusiast!'
   accentColor = '#00dd42'
   #footer = 'Made with ❤️ by Ta180m'
   socialIcons = [
       {name = 'protonmail', url = 'mailto:ta180m@pm.me'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
-      {name = 'mastodon', usrl = 'https://social.exozy.me/@ta180m'},
+      {name = 'mastodon', url = 'https://social.exozy.me/@ta180m'},
       {name = 'gitea', url = 'https://git.exozy.me/Ta180m/'},
       {name = 'github', url = 'https://github.com/Ta180m/'},
       {name = 'codeforces', url = 'https://codeforces.com/profile/Ta180m'},
