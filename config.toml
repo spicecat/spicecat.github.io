@@ -42,7 +42,7 @@ theme = 'gokarna'
     weight = 6
 
 [params]
-  avatarURL = '/dodecahedra/render.gif'
+  avatarURL = '/dodecahedra/render-small.gif'
   avatarSize = 'size-xl'
   description = 'Hello! I’m Anthony Wang, a programming, math, and science enthusiast!'
   accentColor = '#00dd42'
