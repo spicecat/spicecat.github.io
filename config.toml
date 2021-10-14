@@ -49,6 +49,7 @@ theme = 'gokarna'
       {name = 'protonmail', url = 'contact'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
       {name = 'mastodon', url = 'https://social.exozy.me/@ta180m'},
+      {name = 'peertube', url = 'https://tube.exozy.me/a/ta180m/video-channels'},
       {name = 'gitea', url = 'https://git.exozy.me/Ta180m/'},
       {name = 'github', url = 'https://github.com/Ta180m/'},
       {name = 'codeforces', url = 'https://codeforces.com/profile/Ta180m'},
