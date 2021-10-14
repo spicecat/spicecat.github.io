@@ -36,7 +36,7 @@ theme = 'gokarna'
   accentColor = '#00dd42'
   #footer = 'Made with ❤️ by Ta180m'
   socialIcons = [
-      {name = 'protonmail', url = 'mailto:ta180m@pm.me'},
+      {name = 'protonmail', url = 'contact'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
       {name = 'mastodon', url = 'https://social.exozy.me/@ta180m'},
       {name = 'gitea', url = 'https://git.exozy.me/Ta180m/'},
