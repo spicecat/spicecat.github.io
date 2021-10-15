@@ -46,6 +46,7 @@ theme = 'gokarna'
   avatarSize = 'size-xl'
   description = 'Hello! I’m Anthony Wang, a programming, math, and science enthusiast!'
   accentColor = '#00dd42'
+  footer = 'Ta180m - CC-BY-4.0'
   socialIcons = [
       {name = 'protonmail', url = 'contact'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
