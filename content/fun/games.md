@@ -29,6 +29,8 @@ type: page
 
 ## Honorable mentions
 
+- **Portal (7/10)**: A puzzle game from 2007 that's still great to play today.
+
 - **Hedgewars (7/10)**: Hilarious multiplayer battle game with too many weapons.
 
 - **The Powder Toy (7/10)**: Great sandbox game, a bit like Minecraft but better in some ways. Open source! There's even a RetroArch core available for it.
