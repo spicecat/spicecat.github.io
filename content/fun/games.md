@@ -29,7 +29,7 @@ type: page
 
 ## Honorable mentions
 
-- **Portal (7/10)**: A puzzle game from 2007 that's still great to play today.
+- **Portal (8/10)**: A puzzle game from 2007 that's still great to play today.
 
 - **Hedgewars (7/10)**: Hilarious multiplayer battle game with too many weapons.
 
