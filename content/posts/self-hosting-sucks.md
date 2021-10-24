@@ -1,5 +1,5 @@
 ---
-title:  "Self-hosting Sucks"
+title: "Self-hosting Sucks"
 date: 2021-05-05
 type: "post"
 tags: ["Linux", "Rant"]

@@ -1,5 +1,5 @@
 ---
-title:  "The Myth of Bloat"
+title: "The Myth of Bloat"
 date: 2021-06-04
 type: "post"
 tags: ["Linux", "Rant"]

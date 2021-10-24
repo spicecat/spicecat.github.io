@@ -1,5 +1,5 @@
 ---
-title:  "Putting the Wacom Tablet to Good Use!"
+title: "Putting the Wacom Tablet to Good Use!"
 date: 2021-05-26
 type: "post"
 tags: ["Linux", "Art"]

@@ -1,5 +1,5 @@
 ---
-title:  "The Scary S Words"
+title: "The Scary S Words"
 date: 2021-04-27
 type: "post"
 tags: ["Linux"]

@@ -1,5 +1,5 @@
 ---
-title:  "An Interview with GitHub Copilot"
+title: "An Interview with GitHub Copilot"
 date: 2021-07-17
 type: "post"
 tags: ["Machine learning", "Linux", "Windows"]

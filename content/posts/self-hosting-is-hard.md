@@ -1,5 +1,5 @@
 ---
-title:  "Self-hosting is Hard!"
+title: "Self-hosting is Hard!"
 date: 2021-04-07
 type: "post"
 tags: ["Linux"]
