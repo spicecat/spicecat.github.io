@@ -1,9 +1,12 @@
 ---
-layout: post
-title:  "Worst First Build - Homelab Operational!"
-author: Ta180m
+title: "Worst First Build - Homelab Operational!"
+date: 2021-03-31
+type: "post"
 tags: ["Hardware", "Linux"]
 ---
+
+
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-03-31-worst-first-build-part-6.md)*
 
 
 Over the past week, I've been getting my new build set up. It's been quite satisfying: I'll run into more than my fair share of issues, but problem solving for the win!

@@ -1,9 +1,12 @@
 ---
-layout: post
-title:  "The Web Sucks!"
-author: Ta180m
+title: "The Web Sucks!"
+date: 2021-02-26
+type: "post"
 tags: ["Web", "Rant"]
 ---
+
+
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-02-26-web-sucks.md)*
 
 
 [suckless.org](https://suckless.org) really hates [the web](https://suckless.org/sucks/web/). I'll quote them directly:

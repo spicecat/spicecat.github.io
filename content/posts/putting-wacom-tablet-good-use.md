@@ -1,16 +1,19 @@
 ---
-layout: post
 title:  "Putting the Wacom Tablet to Good Use!"
-author: Ta180m
+date: 2021-05-26
+type: "post"
 tags: ["Linux", "Art"]
 ---
+
+
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-05-26-putting-wacom-tablet-good-use.md)*
 
 
 I've had a Wacom tablet for a long time now, but there's just never been a legitimate use for it, really. Everything that I could do with the tablet, I could also do with my laptop's touchscreen and stylus, so it always seemed like a bit of a waste. Sure, the drawing experience is a little bit better, the screen is a bit larger, but why use a Wacom tablet when the touchscreen and stylus work just fine?
 
 Well everyone, I've finally found a great use for it. It's quite obvious, actually: Krita, KDE's finest drawing and painting app! The touchscreen and stylus do work, if you count working as having a terrible drawing experience on a cramped screen since Krita likes overwhelming you with its menus and dockers which also take up a ton of valuable screen real estate. Also, the slightly better control of the stylus you can get with an actual Wacom tablet really helps too. (My laptop's touchscreen, which also coincidentally happens to be made by Wacom, is crying right now.) Behold the terrible drawing I did with the touchscreen and stylus. It's really terrible, just saying.
 
-![The horror!](/blog/assets/zebruh.png)
+![The horror!](/images/zebruh.png)
 
 OK, so why I am even using Krita in the first place? Well, since school's starting to wrap up now, I've suddenly had a lot more free time, perfect for exploring Krita with my sister! Anyways, here's some takeaways about Krita:
 
@@ -26,5 +29,5 @@ OK, so why I am even using Krita in the first place? Well, since school's starti
 
 Here's the horrible drawing I promised. It's horrible in so many different ways, just saying...
 
-![The horror! Oh no!!](/blog/assets/llama.png)
+![The horror! Oh no!!](/images/llama.png)
 

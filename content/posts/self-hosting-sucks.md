@@ -1,12 +1,15 @@
 ---
-layout: post
 title:  "Self-hosting Sucks"
-author: Ta180m
+date: 2021-05-05
+type: "post"
 tags: ["Linux", "Rant"]
 ---
 
 
-After one month of self-hosting, if there's one thing I've learned, it's that self-hosting sucks. As I've said in a [previous post](https://ta180m.github.io/blog/2021/04/08/self-hosting-is-not-the-solution.html), self-hosting is not the solution to our privacy woes. So why exactly does it suck so much? Here's a short timeline of the past month:
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-05-05-self-hosting-sucks.md)*
+
+
+After one month of self-hosting, if there's one thing I've learned, it's that self-hosting sucks. As I've said in a [previous post](/posts/self-hosting-is-not-the-solution), self-hosting is not the solution to our privacy woes. So why exactly does it suck so much? Here's a short timeline of the past month:
 
  - My Discord-Matrix bridge goes down over a weekend and I don't find out for several days. When I try to restart it, I get all sorts of weird Node.js errors about better-sqlite3. After hours of trying to fix it, I finally just remove all occurrences of SQLite from the code since I use PostgreSQL anyways.
 

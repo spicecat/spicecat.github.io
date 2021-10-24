@@ -1,22 +1,25 @@
 ---
-layout: post
-title:  "Worst First Build - Live on PCPartPicker!"
-author: Ta180m
+title: "Worst First Build - Live on PCPartPicker!"
+date: 2021-03-27
+type: "post"
 tags: ["Hardware"]
 ---
+
+
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-03-27-worst-first-build-part-5.md)*
 
 
 It's time to go full circle! I first started planning my build using [Logical Increments](logicalincrements.com/) and [PCPartPicker](https://pcpartpicker.com/) and I can't appreciate how much they've helped me the confusing world of PC building. Now that my build is "finished", or more accurately, functional, it's time to [publish it on PCPartPicker](https://pcpartpicker.com/b/GnV7YJ)!
 
 Here's some anticlimactic images of the completed build:
 
-![Image 1](/blog/assets/finished-build.jpg)
+![Image 1](/images/finished-build.jpg)
 
-![Image 2](/blog/assets/finished-build2.jpg)
+![Image 2](/images/finished-build2.jpg)
 
-![Image 3](/blog/assets/finished-build3.jpg)
+![Image 3](/images/finished-build3.jpg)
 
-![Image 4](/blog/assets/finished-build4.jpg)
+![Image 4](/images/finished-build4.jpg)
 
 Here's the writeup that I did for the build:
 

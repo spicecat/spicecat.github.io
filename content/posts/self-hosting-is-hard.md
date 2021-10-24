@@ -1,9 +1,12 @@
 ---
-layout: post
 title:  "Self-hosting is Hard!"
-author: Ta180m
+date: 2021-04-07
+type: "post"
 tags: ["Linux"]
 ---
+
+
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-04-07-self-hosting-is-hard.md)*
 
 
 It's been over a week since I've completed my build and switched over many things to self-hosting. Here's how it went:
@@ -13,13 +16,13 @@ It's been over a week since I've completed my build and switched over many thing
 
 ### Remote desktop
 
-![VNC](/blog/assets/vnc.png)
+![VNC](/images/vnc.png)
 
 VNC works perfectly. OK, fine, I haven't figured out clipboad sharing yet, but other than that, it's perfect. I also tried Xrdp but didn't have much luck. There's also X2Go which bundles some extra perks like sound and clipboard sharing, but the image quality is blurry at times. Oh well, VNC is better anyways! 
 
 ### Nextcloud
 
-![Nextcloud](/blog/assets/nextcloud.png)
+![Nextcloud](/images/nextcloud.png)
 
 Nextcloud is basically a huge hammer that tries to attack every nail. For most cases, a more specialized tool would be better, but Nextcloud can still give you a surprisingly functional solution to... file sharing, real-time collaborative document editing, photo management, chat, email client, contacts, calendar, music streaming, notes, tasks, forms, maps, Matrix client, and RSS client. So yeah, Nextcloud knocks down quite a few bowling pins with one gigantically overpowered bowling, or perhaps more accurately, wrecking ball.
 
@@ -27,7 +30,7 @@ I anticipated a painful setup process for such a large monolith, but it went sur
 
 ### Gitea
 
-![Gitea](/blog/assets/gitea.png)
+![Gitea](/images/gitea.png)
 
 Gitea is one of the most boring things I've ever self-hosted. It just simply works! All my problem solving skills are simply going to waste... And I still don't know how to pronounce that name...
 
@@ -35,7 +38,7 @@ On a more serious note, I'm currently using it to mirror all my GitHub repositor
 
 ### QEMU/KVM
 
-![Virtual Machine Manager connected to my home server](/blog/assets/vmm.png)
+![Virtual Machine Manager connected to my home server](/images/vmm.png)
 
 Awww yeah, my favorite long acronym! QEMU/KVM is awesome, but I didn't know it was *this awesome*! Now I can run all my virtual machines on my laptop, but actually on my home server, without my laptop's fans spinning up loudly!
 
@@ -54,9 +57,9 @@ And don't get me started on `mx-puppet-discord`. It may have seemed like just a 
 
 ### DIY cloud gaming
 
-![SuperTuxKart, streamed from the "cloud"](/blog/assets/stk.png)
+![SuperTuxKart, streamed from the "cloud"](/images/stk.png)
 
-As crazy as it sounds, this is actually nearly usable! The only thing preventing this from working perfectly are my [terrible GPU](/blog/2021/03/25/worst-first-build-part-4.html) and the limitations of VNC, since proprietary cloud gaming services use their own protocols optimized for low latency. I can get sound using X2Go, but it doesn't always work well. Plus X2Go's image quality is not the best. Still, we'll see how this goes, since it's pretty promising!
+As crazy as it sounds, this is actually nearly usable! The only thing preventing this from working perfectly are my [terrible GPU](/posts/worst-first-build-part-4) and the limitations of VNC, since proprietary cloud gaming services use their own protocols optimized for low latency. I can get sound using X2Go, but it doesn't always work well. Plus X2Go's image quality is not the best. Still, we'll see how this goes, since it's pretty promising!
 
 
 ## Nope

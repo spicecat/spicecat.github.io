@@ -51,11 +51,11 @@ export DISPLAY=:0 # set the display
 
 Here's SuperTuxKart in all its glory running in a container with full graphical acceleration!
 
-![SuperTuxKart in a container](/blog/assets/nspawn-supertuxkart.png)
+![SuperTuxKart in a container](/images/nspawn-supertuxkart.png)
 
 And that's it! Now you have a fast, simple way to test GUI graphically accelerated apps without messing with your host OS. (I still haven't gotten sound to work yet, but it shouldn't be *that* hard...)
 
-Part of the simplicity of `systemd-nspawn` is that it is more of an extension of the age-old `chroot` instead of trying to virtualize too much like Docker. There's no need to worry about virtual network devices, virtual disks, volumes, or any of that stuff. Sure, that limits it in many ways, but it is still a very powerful OS virtualization method when the host and container are running the same OS. Previously, I had also experimented with [QEMU/KVM](/blog/2020/11/18/fun-with-qemu-kvm.html) for this, but it seems overkill since the host and guest can share much the OS such as the kernel. Of course, full-blown virtual machines have their own horde of problems, such as terrible graphical acceleration unacceptable for testing SuperTuxKart.
+Part of the simplicity of `systemd-nspawn` is that it is more of an extension of the age-old `chroot` instead of trying to virtualize too much like Docker. There's no need to worry about virtual network devices, virtual disks, volumes, or any of that stuff. Sure, that limits it in many ways, but it is still a very powerful OS virtualization method when the host and container are running the same OS. Previously, I had also experimented with QEMU/KVM for this, but it seems overkill since the host and guest can share much the OS such as the kernel. Of course, full-blown virtual machines have their own horde of problems, such as terrible graphical acceleration unacceptable for testing SuperTuxKart.
 
 Here are a few possible use cases:
 
@@ -77,7 +77,7 @@ There's one final thing I need to clarify, and that's the title. By worst init s
 
 Whoa! That's a lot!
 
-Much of the hate that systemd receives stems from these blatant violations of the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy). systemd does not do one thing and do it well, unlike its predecessors. It does dozens of things, and arguably, it doesn't do them badly, but thought of systemd slowing expanding its grasp on your entire OS is unacceptable to some people. But of course, this begs the question of whether it is really necessary to adhere so strictly to the Unix philosophy, since most big, standalone apps like GIMP and [LibreOffice](/blog/2020/12/25/linux-office.html) obviously violate it.
+Much of the hate that systemd receives stems from these blatant violations of the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy). systemd does not do one thing and do it well, unlike its predecessors. It does dozens of things, and arguably, it doesn't do them badly, but thought of systemd slowing expanding its grasp on your entire OS is unacceptable to some people. But of course, this begs the question of whether it is really necessary to adhere so strictly to the Unix philosophy, since most big, standalone apps like GIMP and [LibreOffice](/posts/linux-office) obviously violate it.
 
 Still, systemd is everywhere these days, so it might be better to get used to it. Many of its tools are quite good, and `systemd-nspawn` in particular is exceptional. After watching the proliferation of systemd in the past few years, it's undeniable that it's here to stay.
 

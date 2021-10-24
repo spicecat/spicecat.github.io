@@ -4,7 +4,7 @@ type: page
 ---
 
 
-- **Operating System**: [Arch Linux](https://github.com/Ta180m/blog/blob/main/_posts/2021-02-14-i-btw-use-arch.md)
+- **Operating System**: [Arch Linux](/posts/i-btw-use-arch)
 
 - **Desktop environment**: [KDE Plasma](https://www.dedoimedo.com/computers/plasma-desktop-awesome.html)
 

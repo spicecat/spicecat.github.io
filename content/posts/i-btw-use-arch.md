@@ -1,14 +1,17 @@
 ---
-layout: post
-title:  "I, BTW, use Arch"
-author: Ta180m
+title: "I, BTW, use Arch"
+date: 2021-02-14
+type: "post"
 tags: ["Linux"]
 ---
 
 
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-02-14-i-btw-use-arch.md)*
+
+
 Ubuntu (you thought this was going to be about Arch, didn't you?) is a great distro. Cue Reddit screaming. Look on any web forum and you'll find people patronizing Ubuntu. Why? For having a straightforward installer that I can use to get Ubuntu up and running in half an hour with my favorite apps? For being the most supported distro by third-party developers? (They always have a PPA) For dominating server OSes in terms of market share? Nope. *It's for n00bs and beginners.*
 
-There are so many things wrong with that claim, but this post isn't about Ubuntu. OK, it kind of is, and Ubuntu sure has its share of problems, but let's get to the main point. I previously used Ubuntu for over a year, first in WSL, then as my primary OS. But then I met Arch. People sometimes ask me why Arch over Ubuntu, so I'm going to sketch a few reasons why. [Memes](/blog/2020/10/04/arch-memes.html) aside, let's begin.
+There are so many things wrong with that claim, but this post isn't about Ubuntu. OK, it kind of is, and Ubuntu sure has its share of problems, but let's get to the main point. I previously used Ubuntu for over a year, first in WSL, then as my primary OS. But then I met Arch. People sometimes ask me why Arch over Ubuntu, so I'm going to sketch a few reasons why. [Memes](/posts/arch-memes) aside, let's begin.
 
 5. **Hemorrhaging edge**: Oh what, it's actually bleeding edge? Oops. Anyways, Ubuntu has absolutely expansive package repositories that can be further augmented with PPAs, but they can be pretty stale (Er, I meant stable). As in one or two years old, especially with the LTS versions. You probably wouldn't want to eat most stuff that's that stale. Well, no problem with Arch. You get the latest and greatest, at the expense of stuff randomly failing and having to debug and fix it for an hour. Great tradeoff.
 

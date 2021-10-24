@@ -1,14 +1,17 @@
 ---
-layout: post
-title:  "Worst First Build - The Quest for a GPU"
-author: Ta180m
+title: "Worst First Build - The Quest for a GPU"
+date: 2021-03-15
+type: "post"
 tags: ["Hardware"]
 ---
 
 
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-03-15-worst-first-build-part-3.md)*
+
+
 Last Wednesday, March 10th, was going to be *the day*. The day I finally could complete a functioning (but incomplete) build. My slightly overpriced RAM sticks (RAM prices were creeping upward sinisterly so I decided I probably shouldn't wait longer. Probably a bad move, too, but whatever.) were arriving, and it was going to be momentous. I was going to boot up an Arch USB drive, SSH in, and get the party going.
 
-![A low-quality image of the build, sans RAM, courtesy of an terrible iPad camera](/blog/assets/build.jpg)
+![A low-quality image of the build, sans RAM, courtesy of an terrible iPad camera](/images/build.jpg)
 
 Yeah... that didn’t exactly happen.
 
@@ -66,4 +69,4 @@ It looks like my only options now are: asking more people to borrow their GPU, b
 
 It's quite frustrating that the only obstacle in the way of finishing my build is a GPU for an hour. I guess I now have a $666 mega paperweight sitting in my living room. Perfect!
 
-![Another low-quality image of the build](/blog/assets/build2.jpg)
+![Another low-quality image of the build](/images/build2.jpg)

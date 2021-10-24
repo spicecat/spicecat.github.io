@@ -1,14 +1,17 @@
 ---
-layout: post
-title:  "Fixing Bugs Isn't Hard!"
-author: Ta180m
+title: "Fixing Bugs Isn't Hard!"
+date: 2021-04-13
+type: "post"
 tags: ["Linux", "KDE"]
 ---
 
 
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-04-13-fixing-bugs-isnt-hard.md)*
+
+
 A few days ago, I wanted to record my screen, and in process, I discovered [this bug](https://bugs.kde.org/show_bug.cgi?id=417575). It doesn't seem like a very complicated bug, right? Just look through the code, find out what's wrong, and send in a pull request! Or is it that easy?
 
-![The bug](/blog/assets/spectacle.png)
+![The bug](/images/spectacle.png)
 
 The first issue is that [Spectacle's code](https://github.com/KDE/spectacle) is not exactly the most readable code out there, but I was able to identify [line 209 in `GUI/KSMainWindow.cpp`] as the critical line. So what is `mScreenrecorderToolsMenuFactory` and what does `fillMenuFromGroupingNames` do?
 
@@ -59,7 +62,7 @@ Note that the top `com.obsproject.Studio` has different capitalization than `com
 
 Great, so how do we fix it now? None of the KDE codebases are properly designed to be able to handle uppercase names like these, so this is bound to cause more problems in the future. One easy fix could be to convert the names to lowercase before calling the KService functions, but who knows how many bugs are currently plaguing KService because of this? I don't really want to meddle with KService so I think I'll create a pull request for KNewStuff.
 
-![Fixed!](/blog/assets/spectacle-patched.png)
+![Fixed!](/images/spectacle-patched.png)
 
 Time to send in a [pull request](https://invent.kde.org/frameworks/knewstuff/-/merge_requests/115) (or merge request as they call it on GitLab)! The actual patch is tiny: just add a `.toLower()` on line 122 of `kmoretools/kmoretools.cpp`. So little for so much hard work!
 

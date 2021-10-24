@@ -1,9 +1,12 @@
 ---
-layout: post
-title:  "Why Self-hosting is not the Solution"
-author: Ta180m
+title: "Why Self-hosting is not the Solution"
+date: 2021-04-08
+type: "post"
 tags: ["Linux", "Society"]
 ---
+
+
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-04-08-self-hosting-is-not-the-solution.md)*
 
 
 So you hate tech giants. You hate Google for removing "don't be evil" from their code of conduct. You hate Microsoft for making Office and not providing a Linux port, or even worse, creating the dreaded Microsoft Losedows. You hate Crapple's walled garden. You hate Amazon. You hate Facebook and Twitter and all the other closed social media sites. But...
@@ -26,7 +29,7 @@ That said, for the small niche of self-hosting enthusiasts, it's fun, thrilling,
 
 ## So what now?
 
-![Gitea](/blog/assets/gitea.png)
+![Gitea](/images/gitea.png)
 
 Well, Gitea actually provides us with a good step in the right direction. Gitea has a feature to *mirror* repositories from GitHub to your self-hosted instance, so it's not too difficult to mirror your entire GitHub user to Gitea. You can self host *and* reap the benefits of GitHub's [network effect](https://en.wikipedia.org/wiki/Network_effect) at the same time. And if your GitHub repos were ever to get taken down like [youtube-dl](https://github.com/github/dmca/pull/8127), you'll still have all the perks of self-hosting a mirror.
 

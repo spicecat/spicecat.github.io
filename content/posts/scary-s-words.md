@@ -1,9 +1,12 @@
 ---
-layout: post
 title:  "The Scary S Words"
-author: Ta180m
+date: 2021-04-27
+type: "post"
 tags: ["Linux"]
 ---
+
+
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-04-27-scary-s-words.md)*
 
 
 There are two S words that will plunge any Linux forum into endless debate: systemd and standardization. Just look at what happened on [#archlinux:archlinux.org](https://matrix.to/#/!SEgsRQLScqPxYtucHl:archlinux.org): a lengthly flamewar perpetrated by systemd haters which took through debates about standardization, market share, and gun culture (Yes, this did happen), leading to several bans of longtime regulars. So what makes these two words so divisive and controversial?
@@ -18,7 +21,7 @@ Fast forward a few more years later, and Poettering is inspired by his previous 
 
 Not all the information above is true, by the way. It's the themes and ideas that count, anyways.
 
-What starts out as a simple init system baloons into 69 different services, taking over logging, hostname, date and time, locale, logins, container and virtual machine management, system accounts, networking, network time synchronization, DNS, and more. SysVinit may have been getting a little bit bloated, but it's nothing compared to the sheer fat of systemd. The solution? Stop thinking of systemd as an init. At this point, it's basically a whole OS minus the kernel. And systemd isn't even that bad at doing all of these things. Despite its obvious breadth, it actually manages to do a variety of these things, such as [containers](https://ta180m.github.io/blog/2021/01/03/worst-init-system-best-tool.html) quite well. The hate against systemd is psychological.
+What starts out as a simple init system baloons into 69 different services, taking over logging, hostname, date and time, locale, logins, container and virtual machine management, system accounts, networking, network time synchronization, DNS, and more. SysVinit may have been getting a little bit bloated, but it's nothing compared to the sheer fat of systemd. The solution? Stop thinking of systemd as an init. At this point, it's basically a whole OS minus the kernel. And systemd isn't even that bad at doing all of these things. Despite its obvious breadth, it actually manages to do a variety of these things, such as [containers](/posts/worst-init-system-best-tool) quite well. The hate against systemd is psychological.
 
 Lennart Poettering posted a [rebuttal against the systemd haters on his website](https://web.archive.org/web/20190310201738/http://0pointer.de/blog/projects/the-biggest-myths.html), but true haters are keen on pointing out holes in his arguments.
 

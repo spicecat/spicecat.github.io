@@ -1,9 +1,12 @@
 ---
-layout: post
-title:  "Worst First Build - The Sad Saga Continues"
-author: Ta180m
+title: "Worst First Build - The Sad Saga Continues"
+date: 2021-03-03
+type: "post"
 tags: ["Hardware"]
 ---
+
+
+*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-03-03-worst-first-build-part-2.md)*
 
 
 What a perfect time to build a PC: massive supply chain disruptions, cryptocurrencies driving up GPU prices through the roof, (scalper) bot wars, and a pesky little thing called the coronavirus murdering 2.5 million people (that last one probably sounds completely alien to anyone before 2019). Just perfect!
