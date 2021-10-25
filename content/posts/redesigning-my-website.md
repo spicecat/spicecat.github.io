@@ -3,7 +3,7 @@ title: "Redesigning My Website"
 date: 2021-10-24T19:25:13-05:00
 description: "I finally finished redesigning my website using Hugo"
 type: "post"
-tags: ["website"]
+tags: ["website", "web"]
 ---
 
 
