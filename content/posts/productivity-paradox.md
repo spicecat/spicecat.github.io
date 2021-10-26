@@ -1,7 +1,7 @@
 ---
 title: "Productivity Paradox"
 date: 2021-10-25T21:58:24-05:00
-description: ""
+description: "The secret to productivity is that there is no secret."
 type: "post"
 tags: ["life", "productivity", "school", "contests"]
 ---
