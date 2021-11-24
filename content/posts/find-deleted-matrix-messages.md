@@ -33,4 +33,4 @@ See which `event_id` that the redaction is redacting. Now find that `event_id` i
 select * from event_json where event_id='$74R4Y1W9cf_mblMogX7bONx_hk3xIqcB8FCOXydUV2M';
 ```
 
-Fun, isn't it? Anyways, maybe that'll be useful someday.
+Fun, isn't it? Anyways, maybe it'll be useful someday.
