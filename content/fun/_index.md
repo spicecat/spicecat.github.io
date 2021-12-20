@@ -11,3 +11,5 @@ type: page
 - [Games](games)
 
 - [Software](software)
+
+- [Quotes](quotes)
