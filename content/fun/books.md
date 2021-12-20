@@ -14,6 +14,6 @@ type: page
 
 - **Lies My Teacher Told Me - James Loewen**: Everything your history class got wrong.
 
-- **Enlightenment Now - Stephen Pinker**: Supposedly Bill Gates's favorite book of all time.
-
 - **The Code Book - Simon Singh**: A very accessible book about cryptography.
+
+- **The Hitchhiker's Guide to the Galaxy - Douglas Adams**: A book so creative that it defies the limits of human creativity.
