@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Email"
 type: page
 ---
 

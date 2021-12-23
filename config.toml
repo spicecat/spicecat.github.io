@@ -48,7 +48,7 @@ theme = 'gokarna'
   accentColor = '#00dd42'
   footer = 'Made with ❤️ by Ta180m - CC BY-SA 4.0'
   socialIcons = [
-      {name = 'protonmail', url = '/about/contact'},
+      {name = 'protonmail', url = '/about/email'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
       {name = 'mastodon', url = 'https://social.exozy.me/@ta180m'},
       {name = 'peertube', url = 'https://tube.exozy.me/a/ta180m/video-channels'},
