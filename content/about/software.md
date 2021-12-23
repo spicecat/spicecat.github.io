@@ -34,6 +34,8 @@ type: page
 
 - **Video and streaming**: OBS Studio and [PeerTube](https://tube.exozy.me/)
 
-- **Virtualization**: QEMU/KVM
+- **Virtual machines**: QEMU/KVM
+
+- **Containers**: Podman
 
 - **Gaming**: RetroArch, [miscellaneous games](../games)
