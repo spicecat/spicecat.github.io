@@ -8,6 +8,10 @@ type: page
 
 - [Competitive Programming](competitive-programming)
 
+- [Homebrew](homebrew)
+
+- [Machine Learning](machine-learning)
+
 - [exozyme](https://exozy.me)
 
 - [Ladue Computer Science](https://laduecs.github.io/)

@@ -1,7 +1,10 @@
 ---
-title: "Coding"
+title: "Programming"
 type: page
 ---
+
+
+Check out [my projects](/projects) for major programming projects.
 
 Programming languages that I know:
 
