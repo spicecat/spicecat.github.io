@@ -16,11 +16,9 @@ type: page
 
 - **Web browser**: Firefox, Chromium
 
-- **Text editor**: Kate, [Vim](https://git.exozy.me/Ta180m/dotfiles/src/branch/main/.vimrc)
+- **Text editor**: Kate, [Vim](https://git.exozy.me/Ta180m/dotfiles/src/branch/main/.vimrc), [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
 
-- **IDE**: [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
-
-- **Office**: LibreOffice, [Nextcloud](https://cloud.exozy.me)
+- **Office**: [Nextcloud](https://cloud.exozy.me), LibreOffice
 
 - **Mail client**: Thunderbird
 
@@ -34,8 +32,6 @@ type: page
 
 - **Video and streaming**: OBS Studio and [PeerTube](https://tube.exozy.me/)
 
-- **Virtual machines**: QEMU/KVM
-
-- **Containers**: Podman
+- **Virtualization**: QEMU/KVM, Podman
 
 - **Gaming**: RetroArch, [miscellaneous games](../games)
