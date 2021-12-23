@@ -5,10 +5,10 @@ theme = 'gokarna'
 
 [menu]
   [[menu.main]]
-    identifier = 'posts'
-    name = 'Posts'
-    url = '/posts/'
-    pre = '<span data-feather="book"></span>'
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    pre = '<span data-feather="aperture"></span>'
     weight = 1
   [[menu.main]]
     identifier = 'projects'
@@ -17,10 +17,10 @@ theme = 'gokarna'
     pre = '<span data-feather="package"></span>'
     weight = 2
   [[menu.main]]
-    identifier = 'fun'
-    name = 'Fun'
-    url = '/fun/'
-    pre = '<span data-feather="smile"></span>'
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts/'
+    pre = '<span data-feather="book"></span>'
     weight = 3
   [[menu.main]]
     identifier = 'tags'
@@ -48,7 +48,7 @@ theme = 'gokarna'
   accentColor = '#00dd42'
   footer = 'Made with ❤️ by Ta180m - CC BY-SA 4.0'
   socialIcons = [
-      {name = 'protonmail', url = 'contact'},
+      {name = 'protonmail', url = '/about/contact'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
       {name = 'mastodon', url = 'https://social.exozy.me/@ta180m'},
       {name = 'peertube', url = 'https://tube.exozy.me/a/ta180m/video-channels'},
