@@ -10,4 +10,7 @@ type: page
 "With enough bugs, all eyes are shallow."
 \- John Tobey
 
+"I'm not young enough to know everything."
+\- J. M. Barrie
+
 More will be added later.
