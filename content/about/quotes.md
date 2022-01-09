@@ -12,3 +12,6 @@ type: page
 
 "I'm not young enough to know everything."  
 \- J. M. Barrie
+
+"Multitasking is the enemy of focus."  
+\- Anonymous
