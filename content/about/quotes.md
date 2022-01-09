@@ -16,5 +16,8 @@ type: page
 "Multitasking is the enemy of focus."  
 \- Anonymous
 
-"The early bird catches the worm, but the second mouse gets the cheese."
+"The early bird catches the worm, but the second mouse gets the cheese."  
 \- Ernst Berg
+
+"In theory, theory and practice are the same. In practice, they're not."  
+\- Yogi Berra
