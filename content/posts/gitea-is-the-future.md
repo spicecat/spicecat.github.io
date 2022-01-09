@@ -1,5 +1,5 @@
 ---
-title: "Gitea is the Future"
+title: "Gitea is the Future!"
 date: 2022-01-08T19:43:29-06:00
 description: "Why Gitea is the future of FOSS"
 type: "post"
