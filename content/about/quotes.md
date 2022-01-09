@@ -15,3 +15,6 @@ type: page
 
 "Multitasking is the enemy of focus."  
 \- Anonymous
+
+"The early bird catches the worm, but the second mouse gets the cheese."
+\- Ernst Berg
