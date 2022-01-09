@@ -18,4 +18,4 @@ To learn more about me, these links probably won't be useful, but you can check 
 
 - [Quotes](quotes)
 
-Anyways, this is my website. Pretty self-explanatory. This website uses the [Hugo](https://gohugo.io/) static site generator and a custom fork of the [Gokarna theme](https://github.com/Ta180m/gokarna). Everything's licensed under the Creative Commons Attribution-ShareAlike 4.0.
+Anyways, this is my website. Pretty self-explanatory. This website uses the [Hugo](https://gohugo.io/) static site generator and the [Gokarna theme](https://github.com/526avijitgupta/gokarna). Everything's licensed under the Creative Commons Attribution-ShareAlike 4.0.
