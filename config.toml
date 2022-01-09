@@ -1,4 +1,4 @@
-baseURL = 'https://ta180m.github.io/'
+baseURL = 'https://ta180m.exozy.me/'
 languageCode = 'en-us'
 title = 'Some Random Website'
 theme = 'gokarna'
@@ -35,10 +35,10 @@ theme = 'gokarna'
     pre = '<span data-feather="rss"></span>'
     weight = 5
   [[menu.main]]
-    identifier = 'github'
-    name = 'GitHub'
-    url = 'https://github.com/Ta180m/ta180m.github.io'
-    pre = '<span data-feather="github"></span>'
+    identifier = 'gitea'
+    name = 'Gitea'
+    url = 'https://git.exozy.me/Ta180m/ta180m.github.io'
+    pre = '<span data-feather="git-pull-request"></span>'
     weight = 6
 
 [params]
