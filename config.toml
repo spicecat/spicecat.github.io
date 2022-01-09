@@ -35,9 +35,9 @@ theme = 'gokarna'
     pre = '<span data-feather="rss"></span>'
     weight = 5
   [[menu.main]]
-    identifier = 'gitea'
-    name = 'Gitea'
-    url = 'https://git.exozy.me/Ta180m/ta180m.github.io'
+    identifier = 'git'
+    name = 'Git'
+    url = 'https://git.exozy.me/Ta180m/website'
     pre = '<span data-feather="git-pull-request"></span>'
     weight = 6
 
