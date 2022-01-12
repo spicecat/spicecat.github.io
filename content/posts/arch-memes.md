@@ -9,20 +9,20 @@ tags: ["Linux"]
 *Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2020-10-04-arch-memes.md)*
 
 
-![Fly](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/fly.jpg)
+![Fly](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/fly.jpg)
 
-![Graphical Mode](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/graphical_mode.png)
+![Graphical Mode](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/graphical_mode.png)
 
-![The Fox and Arch](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/fox.png)
+![The Fox and Arch](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/fox.png)
 
-![Who Would Win?](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/who_would_win.jpg)
+![Who Would Win?](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/who_would_win.jpg)
 
-![Fu](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/fu.png)
+![Fu](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/fu.png)
 
-![Timesink](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/timesink.jpg)
+![Timesink](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/timesink.jpg)
 
-![Comic](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/comic.png)
+![Comic](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/comic.png)
 
-![Comic 2](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/comic_2.jpg)
+![Comic 2](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/comic_2.jpg)
 
-![Arch](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/arch.png)
+![Arch](https://git.exozy.me/Ta180m/i-btw-use-arch/raw/branch/master/arch.png)
