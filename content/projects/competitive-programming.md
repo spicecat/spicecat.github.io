@@ -6,9 +6,9 @@ type: page
 
 - [USACO Guide](https://github.com/cpinitiative/usaco-guide): I am a contributor
 
-- [Library](https://github.com/Ta180m/Library): Clean templates and algorithm implementations that I use
+- [Library](https://git.exozy.me/Ta180m/Library): Clean templates and algorithm implementations that I use
 
-- [USACO](https://github.com/Ta180m/USACO): Clean USACO solutions
+- [USACO](https://git.exozy.me/Ta180m/USACO): Clean USACO solutions
 
 - [USACO Camp](https://github.com/Ta180m/USACO-Camp): Miscellaneous USACO Camp solutions
 
