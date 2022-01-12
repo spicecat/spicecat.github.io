@@ -13,9 +13,9 @@ A few days ago, I wanted to record my screen, and in process, I discovered [this
 
 ![The bug](/images/spectacle.png)
 
-The first issue is that [Spectacle's code](https://github.com/KDE/spectacle) is not exactly the most readable code out there, but I was able to identify [line 209 in `GUI/KSMainWindow.cpp`] as the critical line. So what is `mScreenrecorderToolsMenuFactory` and what does `fillMenuFromGroupingNames` do?
+The first issue is that [Spectacle's code](https://invent.kde.org/graphics/spectacle) is not exactly the most readable code out there, but I was able to identify [line 209 in `GUI/KSMainWindow.cpp`] as the critical line. So what is `mScreenrecorderToolsMenuFactory` and what does `fillMenuFromGroupingNames` do?
 
-They are actually functions in [KNewStuff](https://github.com/KDE/knewstuff), which I saw was referenced on the bug report. So, I `git` cloned the repository and started to get my hands wet.
+They are actually functions in [KNewStuff](https://invent.kde.org/frameworks/knewstuff), which I saw was referenced on the bug report. So, I `git` cloned the repository and started to get my hands wet.
 
 The first thing to do was to read through the code, except like Spectacle, it wasn't easy. To make things worse, the function calls snaked through various files, going from `kmoretools/kmoretoolsmenufactory.cpp` to `kmoretools/kmoretoolspresets.cpp` to ``kmoretools/kmoretools.cpp`. But as I went deeper, it got more and more confusing.
 
@@ -25,9 +25,9 @@ Or not. Turns out that when `gdb` hits a breakpoint, the entire X server freezes
 
 That aside, it was now time to find the bug! I added breakpoints strategically such as on the critical line 209 in `GUI/KSMainWindow.cpp`. After following the code down several levels, I finally reached...
 
-[KService](https://github.com/KDE/knewstuff/blob/a90a326fb570315e13dc3f24e80e8a032b960647/src/kmoretools/kmoretools.cpp#L122). What the heck is [KService](https://github.com/KDE/kservice/)? Do I really have to clone and compile yet another repository?
+[KService](https://invent.kde.org/frameworks/knewstuff/blob/a90a326fb570315e13dc3f24e80e8a032b960647/src/kmoretools/kmoretools.cpp#L122). What the heck is [KService](https://invent.kde.org/frameworks/kservice/)? Do I really have to clone and compile yet another repository?
 
-The last piece of the puzzle was actually printing out the QStrings, since QT apps just *have* to use their own string class instead of the one in the standard library. Fortunately, KDE has some nice [GDB scripts](https://raw.githubusercontent.com/KDE/kde-dev-scripts/master/kde-devel-gdb) to dump in the `.gdbinit`, and after doing that, I could print QStrings without a problem.
+The last piece of the puzzle was actually printing out the QStrings, since QT apps just *have* to use their own string class instead of the one in the standard library. Fortunately, KDE has some nice [GDB scripts](https://invent.kde.org/sdk/kde-dev-scripts/-/blob/master/kde-devel-gdb) to dump in the `.gdbinit`, and after doing that, I could print QStrings without a problem.
 
 Finally, after digging through more code, I reached the bottom of this!
 
