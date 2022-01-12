@@ -6,7 +6,7 @@ tags: ["Hardware"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-03-25-worst-first-build-part-4.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-03-25-worst-first-build-part-4.md)*
 
 
 The [Great GPU Shortage](https://www.digitaltrends.com/computing/gpu-shortage-q3-2020-double-triple-price/) continues to [smash](https://www.theverge.com/2021/3/23/22345891/nvidia-amd-rtx-gpus-price-scalpers-ebay-graphics-cards) [records](https://www.extremetech.com/gaming/321129-ps5-availability-is-improving-but-gpus-prices-are-the-worst-weve-ever-tracked). We live in ludicrous times indeed, where it's considered lucky to win [a lottery to buy a $330 GPU... at a $200 markup](https://www.reddit.com/r/buildapcsales/comments/mca471/meta_newegg_souffle_3060_3090_51999/)! The barometer of Bitcoin and Ethereum prices continues to skyrocket, and my chances of finally getting a GPU and finishing my build were dimming every day with no end in sight.

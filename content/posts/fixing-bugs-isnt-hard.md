@@ -6,7 +6,7 @@ tags: ["Linux", "KDE"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-04-13-fixing-bugs-isnt-hard.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-04-13-fixing-bugs-isnt-hard.md)*
 
 
 A few days ago, I wanted to record my screen, and in process, I discovered [this bug](https://bugs.kde.org/show_bug.cgi?id=417575). It doesn't seem like a very complicated bug, right? Just look through the code, find out what's wrong, and send in a pull request! Or is it that easy?

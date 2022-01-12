@@ -6,7 +6,7 @@ tags: ["Hardware"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-02-09-worst-first-build.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-02-09-worst-first-build.md)*
 
 
 My laptop's starting to get old. I mean, it works perfectly fine for the most part, but open up a few Google Docs at the same time and watch it struggle to load them: its age is starting to show. Or try to run Zoom (sandboxed in a browser, of course) and anything else at the simultaneously, and you'll get an ugly surprise when your Zoom audio starts crackling up really bad *and* the other app lags like crazy. Fun.

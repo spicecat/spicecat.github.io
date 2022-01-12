@@ -6,7 +6,7 @@ tags: ["Linux", "Society"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-04-08-self-hosting-is-not-the-solution.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-04-08-self-hosting-is-not-the-solution.md)*
 
 
 So you hate tech giants. You hate Google for removing "don't be evil" from their code of conduct. You hate Microsoft for making Office and not providing a Linux port, or even worse, creating the dreaded Microsoft Losedows. You hate Crapple's walled garden. You hate Amazon. You hate Facebook and Twitter and all the other closed social media sites. But...

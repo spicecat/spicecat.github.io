@@ -6,7 +6,7 @@ tags: ["Hardware"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-03-27-worst-first-build-part-5.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-03-27-worst-first-build-part-5.md)*
 
 
 It's time to go full circle! I first started planning my build using [Logical Increments](logicalincrements.com/) and [PCPartPicker](https://pcpartpicker.com/) and I can't appreciate how much they've helped me the confusing world of PC building. Now that my build is "finished", or more accurately, functional, it's time to [publish it on PCPartPicker](https://pcpartpicker.com/b/GnV7YJ)!

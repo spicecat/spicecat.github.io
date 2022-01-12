@@ -6,7 +6,7 @@ tags: ["Linux", "Rant"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-05-05-self-hosting-sucks.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-05-05-self-hosting-sucks.md)*
 
 
 After one month of self-hosting, if there's one thing I've learned, it's that self-hosting sucks. As I've said in a [previous post](/posts/self-hosting-is-not-the-solution), self-hosting is not the solution to our privacy woes. So why exactly does it suck so much? Here's a short timeline of the past month:

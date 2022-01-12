@@ -6,7 +6,7 @@ tags: ["Hardware", "Linux"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-03-31-worst-first-build-part-6.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-03-31-worst-first-build-part-6.md)*
 
 
 Over the past week, I've been getting my new build set up. It's been quite satisfying: I'll run into more than my fair share of issues, but problem solving for the win!

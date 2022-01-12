@@ -6,7 +6,7 @@ tags: ["Linux", "KDE", "Rant"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-06-08-plasma-5.22-disappointment.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-06-08-plasma-5.22-disappointment.md)*
 
 
 The KDE Plasma update train has cycled back again to another major update, so I snatched Plasma 5.22 from the very scary [testing repository](https://wiki.archlinux.org/index.php/Official_repositories#Testing_repositories), took it for a spin, and it's... disappointing.

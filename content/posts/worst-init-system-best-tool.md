@@ -6,7 +6,7 @@ tags: ["Linux"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-01-03-worst-init-system-best-tool.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-01-03-worst-init-system-best-tool.md)*
 
 
 True story: a few weeks ago, I wanted to test out SuperTuxKart but I didn't want to install it on my computer. I had a few options: use a virtual machine and suffer terrible graphics performance, use Docker and suffer the pain of trying to set up graphical acceleration; or use LXC/LXD and suffer the (massive) pain of trying to set up basically anything. I ended up just installing SuperTuxKart to get out of the triple-sided dilemma.

@@ -6,7 +6,7 @@ tags: ["Linux", "KDE"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-02-16-break-rolling-release.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-02-16-break-rolling-release.md)*
 
 
 It's the day! Plasma 5.21 is out!

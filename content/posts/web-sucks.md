@@ -6,7 +6,7 @@ tags: ["Web", "Rant"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-02-26-web-sucks.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-02-26-web-sucks.md)*
 
 
 [suckless.org](https://suckless.org) really hates [the web](https://suckless.org/sucks/web/). I'll quote them directly:

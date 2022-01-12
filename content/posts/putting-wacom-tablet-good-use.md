@@ -6,7 +6,7 @@ tags: ["Linux", "Art"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-05-26-putting-wacom-tablet-good-use.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-05-26-putting-wacom-tablet-good-use.md)*
 
 
 I've had a Wacom tablet for a long time now, but there's just never been a legitimate use for it, really. Everything that I could do with the tablet, I could also do with my laptop's touchscreen and stylus, so it always seemed like a bit of a waste. Sure, the drawing experience is a little bit better, the screen is a bit larger, but why use a Wacom tablet when the touchscreen and stylus work just fine?

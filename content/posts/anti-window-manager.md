@@ -6,7 +6,7 @@ tags: ["Linux", "Rant"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-06-22-anti-window-manager.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-06-22-anti-window-manager.md)*
 
 
 [KDE bloat](/posts/myth-bloat), [WMs rule](/posts/why-wms-suck). Therefore, we must use get rid of the DE in KDE and we are left with... everyone's favorite WM, [KWin](https://userbase.kde.org/KWin)!

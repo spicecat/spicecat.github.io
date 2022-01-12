@@ -6,7 +6,7 @@ tags: ["Hardware"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-03-15-worst-first-build-part-3.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-03-15-worst-first-build-part-3.md)*
 
 
 Last Wednesday, March 10th, was going to be *the day*. The day I finally could complete a functioning (but incomplete) build. My slightly overpriced RAM sticks (RAM prices were creeping upward sinisterly so I decided I probably shouldn't wait longer. Probably a bad move, too, but whatever.) were arriving, and it was going to be momentous. I was going to boot up an Arch USB drive, SSH in, and get the party going.

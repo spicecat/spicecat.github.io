@@ -6,7 +6,7 @@ tags: ["Windows", "WSL"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-01-06-windows-update.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-01-06-windows-update.md)*
 
 
 If I had to name the single thing that I most hate about Windows, it would probably be Windows update. I have a long and complicated history with Windows update. Throw in [Windows Insider](https://insider.windows.com/), and you have the perfect recipe for disaster!

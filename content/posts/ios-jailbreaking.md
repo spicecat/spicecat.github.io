@@ -6,7 +6,7 @@ tags: ["iOS", "Hacking", "Windows", "Linux", "Programming"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2020-11-01-ios-jailbreaking.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2020-11-01-ios-jailbreaking.md)*
 
 
 Let's do this "episode" style:

@@ -6,7 +6,7 @@ tags: ["Linux", "Rant"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2020-12-26-why-wms-suck.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2020-12-26-why-wms-suck.md)*
 
 
 WM fans, don't kill me for saying this, but window managers suck. To see why, let's examine the process of installing and configuring a WM.

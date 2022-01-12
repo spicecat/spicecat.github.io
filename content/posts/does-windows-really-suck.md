@@ -6,7 +6,7 @@ tags: ["Linux", "Windows"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-05-28-does-windows-really-suck.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-05-28-does-windows-really-suck.md)*
 
 
 Well, obviously yes.

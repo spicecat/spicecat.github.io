@@ -6,7 +6,7 @@ tags: ["Linux", "Rant"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-06-04-myth-bloat.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-06-04-myth-bloat.md)*
 
 
 If there's one thing that hardcore Linux users are ridiculously obsessed about, it's the vague and scary concept of *bloat*. You gotta keep package counts low, use [WMs](/posts/why-wms-suck), and compile [suckless.org stuff](suckless.org/). Visit any Arch or Gentoo forum or chat, and this philosophy seems to be epidemical. But... there's a gaping problem: package count is totally irrelevant, WMs are painful to configure, and suckless.org software really sucks. Yes, it's all a load of nonsense.

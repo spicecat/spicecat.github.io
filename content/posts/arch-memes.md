@@ -6,7 +6,7 @@ tags: ["Linux"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2020-10-04-arch-memes.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2020-10-04-arch-memes.md)*
 
 
 ![Fly](https://raw.githubusercontent.com/Ta180m/i-btw-use-arch/master/ext/fly.jpg)

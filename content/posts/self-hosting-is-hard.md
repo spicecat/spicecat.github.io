@@ -6,7 +6,7 @@ tags: ["Linux"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-04-07-self-hosting-is-hard.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-04-07-self-hosting-is-hard.md)*
 
 
 It's been over a week since I've completed my build and switched over many things to self-hosting. Here's how it went:

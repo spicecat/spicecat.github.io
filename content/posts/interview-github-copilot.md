@@ -6,7 +6,7 @@ tags: ["Machine learning", "Linux", "Windows"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-07-17-interview-github-copilot.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-07-17-interview-github-copilot.md)*
 
 
 [The hype is real!](https://copilot.github.com/)

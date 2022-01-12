@@ -6,7 +6,7 @@ tags: ["Linux"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-04-27-scary-s-words.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-04-27-scary-s-words.md)*
 
 
 There are two S words that will plunge any Linux forum into endless debate: systemd and standardization. Just look at what happened on [#archlinux:archlinux.org](https://matrix.to/#/!SEgsRQLScqPxYtucHl:archlinux.org): a lengthly flamewar perpetrated by systemd haters which took through debates about standardization, market share, and gun culture (Yes, this did happen), leading to several bans of longtime regulars. So what makes these two words so divisive and controversial?

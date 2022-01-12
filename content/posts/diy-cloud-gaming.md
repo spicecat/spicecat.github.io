@@ -6,7 +6,7 @@ tags: ["Linux"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-05-13-diy-cloud-gaming.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-05-13-diy-cloud-gaming.md)*
 
 
 Cloud gaming sucks. Here's [Wikipedia's summary](https://en.wikipedia.org/wiki/Cloud_gaming) of its many flaws:

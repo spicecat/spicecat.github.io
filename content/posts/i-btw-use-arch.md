@@ -6,7 +6,7 @@ tags: ["Linux"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-02-14-i-btw-use-arch.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-02-14-i-btw-use-arch.md)*
 
 
 Ubuntu (you thought this was going to be about Arch, didn't you?) is a great distro. Cue Reddit screaming. Look on any web forum and you'll find people patronizing Ubuntu. Why? For having a straightforward installer that I can use to get Ubuntu up and running in half an hour with my favorite apps? For being the most supported distro by third-party developers? (They always have a PPA) For dominating server OSes in terms of market share? Nope. *It's for n00bs and beginners.*

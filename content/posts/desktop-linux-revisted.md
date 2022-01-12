@@ -6,7 +6,7 @@ tags: ["Linux", "Society"]
 ---
 
 
-*Originally posted on my [old blog](https://github.com/Ta180m/blog/blob/main/_posts/2021-05-17-desktop-linux-revisited.md)*
+*Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-05-17-desktop-linux-revisited.md)*
 
 
 Linux enthusiasts have some kind of weird obsession with Linux market share. Compound this with the fact that it's almost impossible to determine accurately, with estimates ranging from lows of 0.5% to sky-high predictions like 5%. That's a whole order of magnitude of estimates! Each end of the spectrum posits a completely different future of Linux, so let's get started digging into this!
