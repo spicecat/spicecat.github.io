@@ -10,13 +10,13 @@ type: page
 
 - [USACO](https://git.exozy.me/Ta180m/USACO): Clean USACO solutions
 
-- [USACO Camp](https://github.com/Ta180m/USACO-Camp): Miscellaneous USACO Camp solutions
+- [USACO Camp](https://git.exozy.me/Ta180m/USACO-Camp): Miscellaneous USACO Camp solutions
 
-- [IOI](https://github.com/Ta180m/IOI): IOI solutions
+- [IOI](https://git.exozy.me/Ta180m/IOI): IOI solutions
 
-- [Google Code Jam](https://github.com/Ta180m/Google-Code-Jam): Google Code Jam solutions
+- [Google Code Jam](https://git.exozy.me/Ta180m/Google-Code-Jam): Google Code Jam solutions
 
-- [ACSL](https://github.com/Ta180m/ACSL): ACSL code and resources
+- [ACSL](https://git.exozy.me/Ta180m/ACSL): ACSL code and resources
 
 - [Idiot Code-Golf](https://github.com/Ta180m/Idiot-Code-Golf): Really stupid code competition
 
