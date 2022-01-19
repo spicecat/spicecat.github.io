@@ -1,0 +1,12 @@
+clone:
+  git:
+    image: none
+    commands:
+     - git clone https://git.exozy.me/Ta180m/website.git
+
+pipeline:
+  build:
+    image: none
+    commands:
+      - cd website
+      - hugo --minify --destination /srv/http/pages/ta180m
