@@ -9,4 +9,11 @@ pipeline:
     image: none
     commands:
       - cd website
-      - hugo --minify --destination /srv/http/pages/ta180m
+      - hugo --minify
+  
+  deploy:
+    image: none
+    commands:
+      - eval $(ssh-agent -s)
+      - ssh-add <(echo "$SSH_KEY")
+      - rsync -e ssh -r public/* ta180m@localhost:/srv/http/pages/ta180m
