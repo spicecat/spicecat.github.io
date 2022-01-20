@@ -14,7 +14,7 @@ type: page
 
 - **File manager**: Dolphin
 
-- **Web browser**: Firefox, Chromium
+- **Web browser**: Firefox
 
 - **Text editor**: Kate, [Vim](https://git.exozy.me/Ta180m/dotfiles/src/branch/main/.vimrc), [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
 
@@ -30,7 +30,7 @@ type: page
 
 - **Music**: [Jellyfin](https://media.exozy.me/)
 
-- **Video and streaming**: OBS Studio and [PeerTube](https://tube.exozy.me/)
+- **Video and streaming**: OBS Studio, [PeerTube](https://tube.exozy.me/)
 
 - **Virtualization**: QEMU/KVM, Podman
 
