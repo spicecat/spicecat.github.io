@@ -1,12 +1,12 @@
 clone:
   git:
-    image: none
+    image: bash
     commands:
       - git clone --recursive https://git.exozy.me/Ta180m/website.git
 
 pipeline:
   build:
-    image: none
+    image: bash
     commands:
       - cd website
       - hugo --minify --destination /srv/http/pages/ta180m
