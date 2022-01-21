@@ -16,5 +16,5 @@ pipeline:
     commands:
       - eval $(ssh-agent -s)
       - ssh-add <(echo "$SSH_KEY")
-      - rsync -r website/public/* ta180m@localhost:/srv/http/pages/ta180m
+      - rsync -e "ssh -o StrictHostKeyChecking=no" -r website/public/* ta180m@localhost:/srv/http/pages/ta180m
     secrets: [ ssh_key ]
