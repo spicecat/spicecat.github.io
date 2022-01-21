@@ -14,6 +14,5 @@ pipeline:
   deploy:
     image: none
     commands:
-      - eval $(ssh-agent -s)
-      - ssh-add <(echo "$SSH_KEY")
-      - rsync -e ssh -r website/public/* ta180m@localhost:/srv/http/pages/ta180m
+      - rsync -r website/public/* ta180m@localhost:/srv/http/pages/ta180m
+    secrets: [ rsync_password ]
