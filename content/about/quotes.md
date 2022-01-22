@@ -21,3 +21,12 @@ type: page
 
 "In theory, theory and practice are the same. In practice, they're not."  
 \- Yogi Berra
+
+"source .bash_history"  
+\- Randall Munroe
+
+"rm -rf $DIRECTROY/*"  
+\- Randall Munroe
+
+"echo "source .bashrc" >> .bashrc"  
+\- Randall Munroe
