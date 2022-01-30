@@ -1,9 +1,10 @@
 ---
 title: "Installing Every Arch Package"
 date: 2022-01-26T21:52:58-06:00
-description: "How I installed as many packages as possible from the Arch Linux official repositories"
+draft: true
+description: "Using algorithms and Julia to install as many packages as possible from the Arch Linux official repositories"
 type: "post"
-tags: ["linux", "fun"]
+tags: ["linux", "fun", "algorithms", "computer-science"]
 ---
 
 
@@ -11,45 +12,80 @@ tags: ["linux", "fun"]
 
 Challenge accepted. Let's do it!
 
-First things first, let's generate a list of all official Arch Linux packages. Fortunately, `pacman`, the best pragmatic package manager in existence, makes this a breeze.
+First things first, let's generate a list of [all official Arch Linux packages](https://archlinux.org/packages/). Fortunately, `pacman`, the best pragmatic package manager in existence, makes this a breeze.
 ```sh
-pacman -Slq
+pacman -Sql
 ```
 
 Great, now let's install it all!
 ```sh
-pacman -Slq | xargs sudo pacman -S
+pacman -Sql | xargs sudo pacman -S
 ```
 
 10 seconds later, you'll find yourself with... unresolvable package conflicts detected?
 
 OK, fine, let's disable dependency checking then:
 ```sh
-pacman -Slq | xargs sudo pacman -Sdd
+pacman -Sql | xargs sudo pacman -Sdd
 ```
 
 Nope, didn't work. We have to do something about the conflicting packages!
 
-## Time for some algorithms!
-
-It's time to put our algorithms knowledge to good use. This is *just* a graph We can think of each package as a node in a graph
-
-Since we don't care about making the dependencies all work out nicely, we just need to choose the larger package out of the two in each pair of conflicting packages. We have to give special treatment to `tensorflow`, `tensorflow-opt`, `tensorflow-cuda`, and `tensorflow-opt-cuda`, since they all conflict with each other, but we'll simply choose `tensorflow-opt-cuda` because it's the most bloated.
-
-It's possible to programmatically do this, but that's left as an exercise to the reader. Plus:
+We could resolve all the conflicts manually with an hour of work... or we could write a program!
 
 ![Automation](https://imgs.xkcd.com/comics/automation.png)
 
-Alright, time to install it all!
-```sh
-pacman -Slq | sed -E '/^(tensorflow|tensorflow-opt|tensorflow-cuda|python-tensorflow|python-tensorflow-opt|python-tensorflow-cuda|blas|python-h5py|python-gast|python-mistune|python-netcdf4|netcdf|python-pytorch|python-sqlalchemy|qtcurve-qt5|quassel-client|quassel-monolithic|racket-minimal|root|rssguard-nowebengine|srslte|tldr|ttf-nerd-fonts-symbols|vbam-sdl|vhba-module|virtualbox-guest-utils-nox|virtualbox-host-modules-arch|xarchiver|xrootd|yabause-gtk|zathura-pdf-poppler|lib32-pipewire-jack|wine|fcron|man-db|pipewire-jack|libreoffice-still.*|llvm11|msmtp-mta|perl-mail-spf|pipewire-media-session|exim|opensmtpd|nullmailer|plan9port|acpi_call-lts|broadcom-wl|clash)$/d' | xargs sudo pacman -Sdd --noconfirm
+## Time for some algorithms!
+
+It's time to put our algorithms knowledge to good use. This is *just* a graph We can think of each package as a node in a graph and each conflict is an edge. Since we don't care about dependency checks (which would make for a likely broken system), we don't need to add any other edges to the graph.
+
+For each edge, we need to pick at most one package, but not both. That sounds a lot like a [maximum independent set](https://en.wikipedia.org/wiki/Maximum_independent_set)!
+
+Wait... it's NP hard though? And we have up to 12000 nodes, so we'll never be able to find the answer before the heat death of the universe, right?
+
+Well, do we have 12000 *connected* nodes? No, since the largest connected component is probably only a few nodes. We aren't going to have hundreds or thousands of packages all conflicting with each other.
+
+## Implementing this in Julia
+
+We're going to use [Julia](https://julialang.org/) for implementing this algorithm, since Julia is Python but better. We first need to get a list of all packages:
+```jl
+packages = split(read(`pacman -Sql`, String))
+n = length(packages)
+idx = Dict(packages[i] => i for i = 1:n)
 ```
 
-This is going to be *fun*:
-```
-Total Download Size:   11420.54 MiB
-Total Installed Size:  37363.60 MiB
+Now, we'll get info about each package:
+```jl
+struct Package
+    provides::Vector{String}
+    conflicts::Vector{String}
+    size::Float64
+end
+
+info = Vector{Package}()
+
+Threads.@threads for i = 1:n
+    package = packages[i]
+    r = map(x -> split(split(x, "\n")[1]), split(read(`pacman -Si $package`, String), " : "))
+    push!(info, Package(r[10], r[13], parse(Float64, r[16][1])))
+end
 ```
 
-Time to take a break while it downloads...
+We need special handling for [virtual packages](https://wiki.archlinux.org/title/Pacman#Virtual_packages):
+```jl
+virtual = Dict{String, Vector{String}}()
+for i = 1:n
+	for p in info[i].provides
+		if p not in virtual
+			virtual[packages[i]] = Vector{String}()
+		end
+		push!(virtual[packages[i]], packages[i])
+	end
+end
+```
 
+We can use this to construct the graph:
+```jl
+graph = [Vector{Int}() for i = 1:n]
+
+```
