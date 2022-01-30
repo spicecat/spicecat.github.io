@@ -18,54 +18,34 @@ pacman -Slq
 
 Great, now let's install it all!
 ```sh
-pacman -Slq | xargs sudo pacman -S --debug
+pacman -Slq | xargs sudo pacman -S
 ```
 
 10 seconds later, you'll find yourself with... unresolvable package conflicts detected?
 
-At the time of this writing, there are 51 conflicting packages, and it's definitely possible to go through each conflict and manually resolve it. However, who wants to waste 10 minutes of their life doing that, and even worse, how will we know our choices give an optimal answer and installs the most number of packages possible?
-
-![Automation](https://xkcd.com/1319/)
-
-## Time for some algorithms!
-
-This problem is "just" a graph problem! And it's not just any general graph, but a very special one! We'll start by making some assumptions to make our life a bit easier.
-
-The first assumption is that each package is in at most one conflict. Yeah, yeah, that's not actually true here since `tensorflow`, `tensorflow-opt`, `tensorflow-cuda`, and `tensorflow-opt-cuda` all conflict with each other, but we'll manually resolve these conflicts ourselves. In this particular case, we'll choose `tensorflow-opt-cuda` since it's the most bloated.
-
-So that makes our killer installation command now:
+OK, fine, let's disable dependency checking then:
 ```sh
-pacman -Slq | sed -E '/(tensorflow|tensorflow-opt|tensorflow-cuda)$/d' | xargs sudo pacman -S --debug
+pacman -Slq | xargs sudo pacman -Sdd
 ```
 
-Awesome, we've now got it down to only 26 conflicts, not counting duplicates!
-```
-debug: package python-h5py conflicts with hdf5-openmpi (by hdf5-openmpi)
-debug: package python-gast03 conflicts with python-gast (by python-gast)
-debug: package python-mistune1 conflicts with python-mistune (by python-mistune)
-debug: package python-netcdf4-openmpi conflicts with python-netcdf4 (by python-netcdf4)
-debug: package netcdf-openmpi conflicts with netcdf (by netcdf)
-debug: package python-pytorch-cuda conflicts with python-pytorch (by python-pytorch)
-debug: package python-sqlalchemy1.3 conflicts with python-sqlalchemy (by python-sqlalchemy)
-debug: package qtcurve-kde conflicts with qtcurve-qt5 (by qtcurve-qt5)
-debug: package quassel-client conflicts with quassel-client-qt (by quassel-client-qt)
-debug: package quassel-monolithic conflicts with quassel-monolithic-qt (by quassel-monolithic-qt)
-debug: package racket-minimal conflicts with racket (by racket)
-debug: package root-cuda conflicts with root (by root)
-debug: package rssguard-nowebengine conflicts with rssguard (by rssguard)
-debug: package srslte-avx2 conflicts with srslte (by srslte)
-debug: package tealdeer conflicts with tldr (by tldr)
-debug: package ttf-nerd-fonts-symbols conflicts with ttf-nerd-fonts-symbols-mono (by ttf-nerd-fonts-symbols-mono)
-debug: package vbam-sdl conflicts with vbam-wx (by vbam-wx)
-debug: package vhba-module-dkms conflicts with vhba-module (by vhba-module)
-debug: package virtualbox-guest-utils conflicts with virtualbox-guest-utils-nox (by virtualbox-guest-utils-nox)
-debug: package virtualbox-host-modules-arch conflicts with virtualbox-host-dkms (by virtualbox-host-dkms)
-debug: package xarchiver-gtk2 conflicts with xarchiver (by xarchiver)
-debug: package xrootd4 conflicts with xrootd (by xrootd)
-debug: package yabause-gtk conflicts with yabause-qt (by yabause-qt)
-debug: package zathura-pdf-mupdf conflicts with zathura-pdf-poppler (by zathura-pdf-poppler)
-debug: package lib32-jack2 conflicts with lib32-pipewire-jack (by lib32-jack)
-debug: package wine-staging conflicts with wine (by wine)
+Nope, didn't work. We have to do something about the conflicting packages!
+
+Since we don't care about making the dependencies all work out nicely, we just need to choose the larger package out of the two in each pair of conflicting packages. We have to give special treatment to `tensorflow`, `tensorflow-opt`, `tensorflow-cuda`, and `tensorflow-opt-cuda`, since they all conflict with each other, but we'll simply choose `tensorflow-opt-cuda` because it's the most bloated.
+
+It's possible to programmatically do this, but that's left as an exercise to the reader. Plus:
+
+![Automation](https://imgs.xkcd.com/comics/automation.png)
+
+Alright, time to install it all!
+```sh
+pacman -Slq | sed -E '/^(tensorflow|tensorflow-opt|tensorflow-cuda|python-tensorflow|python-tensorflow-opt|python-tensorflow-cuda|blas|python-h5py|python-gast|python-mistune|python-netcdf4|netcdf|python-pytorch|python-sqlalchemy|qtcurve-qt5|quassel-client|quassel-monolithic|racket-minimal|root|rssguard-nowebengine|srslte|tldr|ttf-nerd-fonts-symbols|vbam-sdl|vhba-module|virtualbox-guest-utils-nox|virtualbox-host-modules-arch|xarchiver|xrootd|yabause-gtk|zathura-pdf-poppler|lib32-pipewire-jack|wine|fcron|man-db|pipewire-jack|libreoffice-still.*|llvm11|msmtp-mta|perl-mail-spf|pipewire-media-session|exim|opensmtpd|nullmailer|plan9port|acpi_call-lts|broadcom-wl|clash)$/d' | xargs sudo pacman -Sdd --noconfirm
 ```
 
-pacman -Slq | sed -E '/(tensorflow|tensorflow-opt|tensorflow-cuda|python-h5py|python-gast|python-mistune|python-netcdf4|netcdf|python-pytorch|python-sqlalchemy|qtcurve-qt5|quassel-client|quassel-monolithic|racket-minimal|root|rssguard-nowebengine|srslte|tldr|ttf-nerd-fonts-symbols|vbam-sdl|vhba-module|virtualbox-guest-utils-nox|virtualbox-host-modules-arch|xarchiver|xrootdd|yabause-gtk|zathura-pdf-poppler|lib32-pipewire-jack|wine)$/d' | xargs sudo pacman -S --debug
+This is going to be *fun*:
+```
+Total Download Size:   11420.54 MiB
+Total Installed Size:  37363.60 MiB
+```
+
+Time to take a break while it downloads...
+
