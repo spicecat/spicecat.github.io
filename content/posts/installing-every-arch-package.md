@@ -49,12 +49,14 @@ Well, do we have 12000 *connected* nodes? No, since the largest connected compon
 
 We're going to use [Julia](https://julialang.org/) for implementing this algorithm, since Julia is Python but better. We first need to get a list of all packages:
 ```jl
-packages = split(read(`pacman -Sql`, String))
-n = length(packages)
-idx = Dict(packages[i] => i for i = 1:n)
+pkgname = split(read(`pacman -Sql`, String))
+
+N = length(pkgname)
+
+pkgidx = Dict(pkgname[i] => i for i = 1:N)
 ```
 
-Now, we'll get info about each package:
+Now, we'll get info about each package, using multithreading to speed things up:
 ```jl
 struct Package
     provides::Vector{String}
@@ -62,44 +64,113 @@ struct Package
     size::Float64
 end
 
-info = Vector{Package}()
+pkginfo = Vector{Package}(undef, N)
 
-Threads.@threads for i = 1:n
-    package = packages[i]
-    r = map(x -> split(split(x, "\n")[1]), split(read(`pacman -Si $package`, String), " : "))
-    push!(info, Package(r[10], r[13], parse(Float64, r[16][1])))
+Threads.@threads for i = 1:N
+    pkg = pkgname[i]
+    info = map(x -> split(replace(split(x, "\n")[1], "None" => "")), split(read(`pacman -Si $pkg`, String), " : "))
+    pkginfo[i] = Package(info[10], info[13], parse(Float64, info[16][1]))
 end
 ```
 
 We need special handling for [virtual packages](https://wiki.archlinux.org/title/Pacman#Virtual_packages):
 ```jl
-virtual = Dict{String, Vector{String}}()
+virtual = Dict{String, Vector{Int}}()
 
-for i = 1:n
-	for p in info[i].provides
-		if !(p in keys(virtual))
-			virtual[p] = Vector{String}()
+for i = 1:N
+	for virt in pkginfo[i].provides
+		if !(virt in keys(virtual))
+			virtual[virt] = Vector{Int}()
 		end
-		push!(virtual[p], packages[i])
+		push!(virtual[virt], i)
 	end
 end
 ```
 
 We can use this to construct the graph:
 ```jl
-graph = [Vector{Int}() for i = 1:n]
+G = [Set{Int}() for i = 1:N]
 
-for i = 1:n
-	for c in info[i].conflicts
-		if c in keys(idx)
-			push!(graph[i], idx[c])
-			push!(graph[idx[c]], i)
-		elseif c in keys(virtual)
-			for v in virtual[c]
-				push!(graph[i], idx[v])
-				push!(graph[idx[v]], i)
+for i = 1:N
+	for con in pkginfo[i].conflicts
+		if con in keys(pkgidx)
+			push!(G[i], pkgidx[con])
+			push!(G[pkgidx[con]], i)
+		elseif con in keys(virtual)
+			for j in virtual[con]
+				if j != i
+					push!(G[i], j)
+					push!(G[j], i)
+				end
 			end
 		end
 	end
 end
+```
+
+Now we can go through each connected component and brute-force the answer:
+```jl
+ans = BitSet(1:N)
+
+used = BitSet()
+
+for i = 1:N
+	if !(i in used)
+		push!(used, i)
+		component = Vector{Int}()
+		queue = Vector{Int}([i])
+		while !isempty(queue)
+			u = popfirst!(queue)
+			push!(component, u)
+			for v in G[u]
+				if !(v in used)
+					push!(used, v)
+					push!(queue, v)
+				end
+			end
+		end
+
+		M = length(component)
+		best = (0, 0.0, 0)
+		for m = 1:(1<<M)-1
+			good = true
+			for j = 1:M
+				if (m>>(j-1))&1 == 1
+					for k = j+1:M
+						if (m>>(k-1))&1 == 1 && component[j] in G[component[k]]
+							good = false
+						end
+					end
+				end
+			end
+			if !good
+				continue
+			end
+
+			cnt = length([j for j = 1:M if (m>>(j-1))&1 == 1])
+			size = sum([pkginfo[component[j]].size for j = 1:M if (m>>(j-1))&1 == 1])
+			best = max((cnt, size, m), best)
+		end
+
+		for j = 1:M
+			if (best[3]>>(j-1))&1 != 1
+				delete!(ans, component[j])
+			end
+		end
+	end
+end
+```
+
+Let's save it to a file:
+```jl
+open("out", "w") do f
+	for i in ans
+		println(f, pkgname[i])
+	end
+end
+```
+
+And time to install everything!
+```sh
+cat out | xargs sudo pacman -Sdd --noconfirm
 ```
