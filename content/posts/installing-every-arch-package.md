@@ -74,12 +74,13 @@ end
 We need special handling for [virtual packages](https://wiki.archlinux.org/title/Pacman#Virtual_packages):
 ```jl
 virtual = Dict{String, Vector{String}}()
+
 for i = 1:n
 	for p in info[i].provides
-		if p not in virtual
-			virtual[packages[i]] = Vector{String}()
+		if !(p in keys(virtual))
+			virtual[p] = Vector{String}()
 		end
-		push!(virtual[packages[i]], packages[i])
+		push!(virtual[p], packages[i])
 	end
 end
 ```
@@ -88,4 +89,17 @@ We can use this to construct the graph:
 ```jl
 graph = [Vector{Int}() for i = 1:n]
 
+for i = 1:n
+	for c in info[i].conflicts
+		if c in keys(idx)
+			push!(graph[i], idx[c])
+			push!(graph[idx[c]], i)
+		elseif c in keys(virtual)
+			for v in virtual[c]
+				push!(graph[i], idx[v])
+				push!(graph[idx[v]], i)
+			end
+		end
+	end
+end
 ```
