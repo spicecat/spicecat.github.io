@@ -30,6 +30,10 @@ pacman -Slq | xargs sudo pacman -Sdd
 
 Nope, didn't work. We have to do something about the conflicting packages!
 
+## Time for some algorithms!
+
+It's time to put our algorithms knowledge to good use. This is *just* a graph We can think of each package as a node in a graph
+
 Since we don't care about making the dependencies all work out nicely, we just need to choose the larger package out of the two in each pair of conflicting packages. We have to give special treatment to `tensorflow`, `tensorflow-opt`, `tensorflow-cuda`, and `tensorflow-opt-cuda`, since they all conflict with each other, but we'll simply choose `tensorflow-opt-cuda` because it's the most bloated.
 
 It's possible to programmatically do this, but that's left as an exercise to the reader. Plus:
