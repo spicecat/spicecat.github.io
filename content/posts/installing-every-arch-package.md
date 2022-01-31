@@ -171,24 +171,15 @@ Alright, time to install everything! It'll take about 30 minutes for everything 
 sudo pacman -Sdd $(cat out)
 ```
 
-After everything finishes downloading, we get more errors?
+After everything finishes downloading, we get a bunch more errors?
 ```
 error: failed to commit transaction (conflicting files)
-/usr/lib/python3.10/site-packages/tests/__init__.py exists in both 'python-pybtex' and 'python-wiktionaryparser'
-/usr/lib/python3.10/site-packages/tests/__pycache__/__init__.cpython-310.opt-1.pyc exists in both 'python-pybtex' and 'python-wiktionaryparser'
-/usr/lib/python3.10/site-packages/tests/__pycache__/__init__.cpython-310.pyc exists in both 'python-pybtex' and 'python-wiktionaryparser'
-/usr/bin/sl exists in both 'python-softlayer' and 'sl'
-/usr/bin/singularity exists in both 'singularity' and 'singularity-container'
-/usr/lib/SoapySDR/modules0.8/libairspySupport.so exists in both 'soapyairspy' and 'soapyosmo'
-/usr/share/tessdata/osd.traineddata exists in both 'tesseract' and 'tesseract-data-osd'
 Errors occurred, no packages were upgraded.
 ```
 
-There are some [open bugs](https://bugs.archlinux.org/task/73574) to fix these conflicts, but in the meantime, we'll just manually remove `python-wiktionaryparser`, `mvt`, `sl`, `singularity`, `tesseract-data-osd`, `kea-docs`, `lrzsz`,  from our list of packages to install.
-
-Let's rerun the command above, and hope for the best this time!
+Normally this isn't a good idea, but since we don't care if we end up with a broken system, let's tell `pacman` to ignore all conflicting files:
 ```sh
-sudo pacman -Sdd $(cat out)
+sudo pacman -Sdd $(cat out) --overwrite '*'
 ```
 
 Alright, I'm still waiting on this command to finish. Check back later!
