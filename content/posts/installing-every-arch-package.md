@@ -42,7 +42,7 @@ For each edge, we need to pick at most one package, but not both. That sounds a 
 
 Wait... it's NP hard though? And we have up to 12000 nodes, so we'll never be able to find the answer before the heat death of the universe, right?
 
-Well, do we have 12000 *connected* nodes? No, since the largest connected component is probably only a few nodes. We aren't going to have hundreds or thousands of packages all conflicting with each other.
+Well, do we have 12000 *connected* nodes? No, since the largest connected component is probably only a few nodes. We aren't going to have hundreds or thousands of packages all conflicting with each other. Therefore, we don't need to solve [P vs. NP](https://en.wikipedia.org/wiki/P_versus_NP_problem) to be able to find the maximum independent set of this particular graph. Phew!
 
 ## Implementing this in Julia
 
