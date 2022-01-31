@@ -1,7 +1,6 @@
 ---
 title: "Installing Every Arch Package"
 date: 2022-01-26T21:52:58-06:00
-draft: true
 description: "Using algorithms and Julia to install as many packages as possible from the Arch Linux official repositories"
 type: "post"
 tags: ["linux", "fun", "algorithms", "computer-science"]
@@ -167,7 +166,9 @@ open("out", "w") do f
 end
 ```
 
-Alright, time to install everything! This takes about 30 minutes depending on your internet connection. Make sure you have the `multilib` repository enabled, and you may manually need to install `iptables-nft` before running this command.
+Alright, time to install everything! This takes about 60 minutes depending on your internet connection. Make sure you have the `multilib` repository enabled, and you may manually need to install `iptables-nft` before running this command.
 ```sh
 cat out | xargs sudo pacman -Sdd --noconfirm
 ```
+
+At the time of this writing, I'm not done installing everything quite yet, but I'll update this post when I'm done.
