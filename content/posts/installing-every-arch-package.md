@@ -52,8 +52,6 @@ We're going to use [Julia](https://julialang.org/) for implementing this algorit
 pkgname = split(read(`pacman -Sql`, String))
 
 N = length(pkgname)
-
-pkgidx = Dict(pkgname[i] => i for i = 1:N)
 ```
 
 Now, we'll get info about each package, using multithreading to speed things up:
@@ -69,20 +67,22 @@ pkginfo = Vector{Package}(undef, N)
 Threads.@threads for i = 1:N
     pkg = pkgname[i]
     info = map(x -> split(replace(split(x, "\n")[1], "None" => "")), split(read(`pacman -Si $pkg`, String), " : "))
+    push!(info[10], pkg)
     pkginfo[i] = Package(info[10], info[13], parse(Float64, info[16][1]))
 end
 ```
 
 We need special handling for [virtual packages](https://wiki.archlinux.org/title/Pacman#Virtual_packages):
 ```jl
-virtual = Dict{String, Vector{Int}}()
+providedby = Dict{String, Vector{Int}}()
 
 for i = 1:N
-	for virt in pkginfo[i].provides
-		if !(virt in keys(virtual))
-			virtual[virt] = Vector{Int}()
+	for p in pkginfo[i].provides
+		p = split(p, "=")[1]
+		if !(p in keys(providedby))
+			providedby[p] = Vector{Int}()
 		end
-		push!(virtual[virt], i)
+		push!(providedby[p], i)
 	end
 end
 ```
@@ -92,24 +92,20 @@ We can use this to construct the graph:
 G = [Set{Int}() for i = 1:N]
 
 for i = 1:N
-	for con in pkginfo[i].conflicts
-		if con in keys(virtual)
-			for j in virtual[con]
+	for p in pkginfo[i].conflicts
+		if p in keys(providedby)
+			for j in providedby[p]
 				if j != i
 					push!(G[i], j)
 					push!(G[j], i)
 				end
 			end
 		end
-		if con in keys(pkgidx)
-			push!(G[i], pkgidx[con])
-			push!(G[pkgidx[con]], i)
-		end
 	end
 end
 ```
 
-Now we can go through each connected component and brute-force the answer:
+Now we can find each connected component using [BFS](https://en.wikipedia.org/wiki/Breadth-first_search), and brute-force the maximum independent set by trying every subset of the nodes in that component. It's implemented here using some bit manipulation trickery.
 ```jl
 ans = BitSet(1:N)
 
@@ -171,7 +167,7 @@ open("out", "w") do f
 end
 ```
 
-Alright, time to install everything!
+Alright, time to install everything! This takes about 30 minutes depending on your internet connection. Make sure you have the `multilib` repository enabled, and you may manually need to install `iptables-nft` before running this command.
 ```sh
 cat out | xargs sudo pacman -Sdd --noconfirm
 ```
