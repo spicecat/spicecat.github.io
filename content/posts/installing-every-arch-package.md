@@ -93,16 +93,17 @@ G = [Set{Int}() for i = 1:N]
 
 for i = 1:N
 	for con in pkginfo[i].conflicts
-		if con in keys(pkgidx)
-			push!(G[i], pkgidx[con])
-			push!(G[pkgidx[con]], i)
-		elseif con in keys(virtual)
+		if con in keys(virtual)
 			for j in virtual[con]
 				if j != i
 					push!(G[i], j)
 					push!(G[j], i)
 				end
 			end
+		end
+		if con in keys(pkgidx)
+			push!(G[i], pkgidx[con])
+			push!(G[pkgidx[con]], i)
 		end
 	end
 end
@@ -170,7 +171,7 @@ open("out", "w") do f
 end
 ```
 
-And time to install everything!
+Alright, time to install everything!
 ```sh
 cat out | xargs sudo pacman -Sdd --noconfirm
 ```
