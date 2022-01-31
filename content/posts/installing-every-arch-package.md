@@ -195,3 +195,27 @@ Errors occurred, no packages were upgraded.
 I don't have enough disk space? NOOOOOOOO!!!!!
 
 Fortunately, [ncdu](https://dev.yorhel.nl/ncdu) makes it extremely easy to clean up some disk space.
+
+Let's try again:
+```
+(12232/12232) checking for file conflicts                          [####################################] 100%
+(12232/12232) checking available disk space                        [####################################] 100%
+error: Partition / too full: 46765827 blocks needed, 44965573 blocks free
+error: not enough free disk space
+error: failed to commit transaction (not enough free disk space)
+Errors occurred, no packages were upgraded.
+```
+
+I still don't have enough? Fine, let's install the largest 100 packages first, and then delete them from the cache to reduce our disk usage.
+```
+cd /var/cache/pacman/pkg
+sudo pacman -Udd $(ls -S | head -n 100)
+sudo rm $(ls -S | head -n 100)
+```
+
+Now let's try again:
+```sh
+sudo pacman -Sdd $(cat out) --overwrite '*' --needed
+```
+
+Success! This command takes forever to run too, and there's *52* `pacman` hooks at the end.
