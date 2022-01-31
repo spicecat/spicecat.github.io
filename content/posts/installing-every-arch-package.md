@@ -166,7 +166,7 @@ open("out", "w") do f
 end
 ```
 
-Alright, time to install everything! It'll take about 30 minutes for everything to download, depending on your internet connection. Make sure you have the `multilib` repository enabled.
+Alright, time to install everything! It'll take about 30 minutes for everything to download, depending on your internet connection. Make sure you have the `multilib` repository enabled. We can also speed this up by disabling package signature checking.
 ```sh
 sudo pacman -Sdd $(cat out)
 ```
@@ -194,6 +194,4 @@ Errors occurred, no packages were upgraded.
 
 I don't have enough disk space? NOOOOOOOO!!!!!
 
-Oh well, I guess I'll delete the testing VM and try again and redownload *everything*. This is going to take a while.
-
-Stay tuned.
+Fortunately, [ncdu](https://dev.yorhel.nl/ncdu) makes it extremely easy to clean up some disk space.
