@@ -18,14 +18,14 @@ pacman -Sql
 
 Great, now let's install it all!
 ```sh
-pacman -Sql | xargs sudo pacman -S
+sudo pacman -S $(pacman -Sql)
 ```
 
 10 seconds later, you'll find yourself with... unresolvable package conflicts detected?
 
 OK, fine, let's disable dependency checking then:
 ```sh
-pacman -Sql | xargs sudo pacman -Sdd
+sudo pacman -Sdd $(pacman -Sql)
 ```
 
 Nope, didn't work. We have to do something about the conflicting packages!
@@ -166,14 +166,12 @@ open("out", "w") do f
 end
 ```
 
-Alright, time to install everything! This takes about 60 minutes depending on your internet connection. Make sure you have the `multilib` repository enabled, and you may manually need to install `iptables-nft` before running this command.
+Alright, time to install everything! It'll take about 30 minutes for everything to download, depending on your internet connection. Make sure you have the `multilib` repository enabled.
 ```sh
-cat out | xargs sudo pacman -Sdd --noconfirm
+sudo pacman -Sdd $(cat out)
 ```
 
-At the time of this writing, I'm not done installing everything quite yet, but I'll update this post when I'm done.
-
-Update: I got an error!
+After everything finishes downloading, we get more errors?
 ```
 error: failed to commit transaction (conflicting files)
 /usr/lib/python3.10/site-packages/tests/__init__.py exists in both 'python-pybtex' and 'python-wiktionaryparser'
@@ -186,4 +184,11 @@ error: failed to commit transaction (conflicting files)
 Errors occurred, no packages were upgraded.
 ```
 
-I'll fix it later. Stay tuned.
+There are some [open bugs](https://bugs.archlinux.org/task/73574) to fix these conflicts, but in the meantime, we'll just manually remove `python-wiktionaryparser`, `mvt`, `sl`, `singularity`, `tesseract-data-osd`, `kea-docs`, `lrzsz`,  from our list of packages to install.
+
+Let's rerun the command above, and hope for the best this time!
+```sh
+sudo pacman -Sdd $(cat out)
+```
+
+Alright, I'm still waiting on this command to finish. Check back later!
