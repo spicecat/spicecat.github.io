@@ -182,4 +182,18 @@ Normally this isn't a good idea, but since we don't care if we end up with a bro
 sudo pacman -Sdd $(cat out) --overwrite '*'
 ```
 
-Alright, I'm still waiting on this command to finish. Check back later!
+What? Yet another error?
+```
+(12232/12232) checking for file conflicts                          [####################################] 100%
+(12232/12232) checking available disk space                        [####################################] 100%
+error: Partition / too full: 44153437 blocks needed, 32623558 blocks free
+error: not enough free disk space
+error: failed to commit transaction (not enough free disk space)
+Errors occurred, no packages were upgraded.
+```
+
+I don't have enough disk space? NOOOOOOOO!!!!!
+
+Oh well, I guess I'll delete the testing VM and try again and redownload *everything*. This is going to take a while.
+
+Stay tuned.
