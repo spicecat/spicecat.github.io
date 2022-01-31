@@ -172,3 +172,18 @@ cat out | xargs sudo pacman -Sdd --noconfirm
 ```
 
 At the time of this writing, I'm not done installing everything quite yet, but I'll update this post when I'm done.
+
+Update: I got an error!
+```
+error: failed to commit transaction (conflicting files)
+/usr/lib/python3.10/site-packages/tests/__init__.py exists in both 'python-pybtex' and 'python-wiktionaryparser'
+/usr/lib/python3.10/site-packages/tests/__pycache__/__init__.cpython-310.opt-1.pyc exists in both 'python-pybtex' and 'python-wiktionaryparser'
+/usr/lib/python3.10/site-packages/tests/__pycache__/__init__.cpython-310.pyc exists in both 'python-pybtex' and 'python-wiktionaryparser'
+/usr/bin/sl exists in both 'python-softlayer' and 'sl'
+/usr/bin/singularity exists in both 'singularity' and 'singularity-container'
+/usr/lib/SoapySDR/modules0.8/libairspySupport.so exists in both 'soapyairspy' and 'soapyosmo'
+/usr/share/tessdata/osd.traineddata exists in both 'tesseract' and 'tesseract-data-osd'
+Errors occurred, no packages were upgraded.
+```
+
+I'll fix it later. Stay tuned.
