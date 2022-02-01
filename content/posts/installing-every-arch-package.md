@@ -230,7 +230,7 @@ Success! Now, time for yet another 30 minute wait, and even better, there's *52*
 
 Alright, let's reboot and check out our new and improved Arch Linux system!
 
-The first obstacle that we encounter is that most display managers, with the exception of [LXDM](https://wiki.archlinux.org/title/LXDM). So, let's `sudo systemctl start lxdm` and choose one of the 44 desktop sessions to explore.
+The first obstacle that we encounter is that most display managers, with the exception of [LXDM](https://wiki.archlinux.org/title/LXDM), don't have a scrollbar for selecting the desktop session (Because when would you ever have that many sessions installed?)/ So, let's `sudo systemctl start lxdm` and choose one of the 44 desktop sessions to explore.
 
 ![A very bloated LXDM](/images/bloated-lxdm.png)
 
