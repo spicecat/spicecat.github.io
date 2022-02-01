@@ -232,7 +232,7 @@ Alright, let's reboot and check out our new and improved Arch Linux system!
 
 The first obstacle that we encounter is that most display managers, with the exception of [LXDM](https://wiki.archlinux.org/title/LXDM), don't have a scrollbar for selecting the desktop session (Because when would you ever have that many sessions installed?). So, let's `sudo systemctl start lxdm` and choose one of the 44 desktop sessions to explore.
 
-![A very bloated LXDM](/images/bloated-lxdm.png)
+![A very bloated LXDM](/images/bloated-lxdm.webp)
 
 Surprisingly, KDE Plasma starts up pretty snappily, but 10 different background services also popped up in the system tray. Memory usage is pretty high, but what can you expect? We also have over 30 different terminals to choose from for our `neofetch` screenshot.
 
