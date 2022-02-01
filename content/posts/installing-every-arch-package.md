@@ -236,11 +236,11 @@ The first obstacle that we encounter is that most display managers, with the exc
 
 Surprisingly, KDE Plasma starts up pretty snappily, but 10 different background services also popped up in the system tray. Memory usage is pretty high, but what can you expect? We also have over 30 different terminals to choose from for our `neofetch` screenshot.
 
-![A very bloated KDE](/images/bloated-kde.png)
+![A very bloated KDE](/images/bloated-kde.webp)
 
 Now let's have some real fun with this system:
 
-![All apps](/images/all-apps.png)
+![All apps](/images/all-apps.webp)
 
 Endless fun!
 
