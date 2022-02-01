@@ -245,14 +245,14 @@ Now let's have some real fun with this system:
 Endless fun!
 
 
-# So is this system usable?
+## So is this system usable?
 
 Surprisingly, yes! It's hard to judge how bad the performance really is, since it's in a virtual machine, but all the software that I tested was definitely usable. It's somewhat slow, but that's exactly what you'd expect. As we used a lot of unsafe hacks (disabling dependency and file conflict checking, for instance) to get this to actually work, I wouldn't recommend using this system for anything other than proving it's possible.
 
 Now is this useful? The short answer is no. The long answer is also no. I can think of exactly zero uses of this experiment (and I must be pretty crazy for doing it).
 
 
-# I want to try this out!
+## I want to try this out!
 
 Uh, don't do it, but if you insist, you need a fresh new Arch Linux system, 250 GB of free disk space, Julia, a boatload of patience, and a healthy dose of insanity. You can download the Julia code as a [Pluto notebook](/src/solveconflicts.jl) and run it with `julia --threads=auto solveconflicts.jl`. I'd recommend doing the actual installation (`sudo pacman -Sdd $(cat out) --overwrite '*' --needed`) in a VM since this completely destroys an Arch Linux system, and there's no going back once you finish.
 
