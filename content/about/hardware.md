@@ -10,7 +10,7 @@ type: page
 | Phone | Apple iPhone 6S | Jailbroken iOS | ARMv8-A Twister | PowerVR Series7XT | 2 GB |
 | Desktop, Workstation, Server | [exozyme](exozy.me) | Arch Linux | AMD Ryzen 9 5900X | AMD Radeon RX 6600 XT | 32 GB |
 | Laptop | Lenovo ThinkPad Yoga 14 Signature Edition | Arch Linux | Intel Core i5-6200U | Intel HD Graphics 520, Nvidia GeForce 940M | 8 GB |
-| Console | Unpatched Nintendo Switch | Quad-boot Horizon OS-Atmosphère-Ubuntu-LineageOS | Nvidia Tegra X1 | 4 GB |
+| Console | Unpatched Nintendo Switch | Quad-boot Horizon OS, Atmosphère, Ubuntu, LineageOS | Nvidia Tegra X1 | 4 GB |
 | Calculator | TI-Nspire CX CAS (rev v) | Ndless | ARM9-26EJ-S | None | 64 MB |
 
 ## Retired
