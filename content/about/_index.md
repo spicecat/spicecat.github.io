@@ -12,6 +12,8 @@ To learn more about me, these links probably won't be useful, but you can check 
 
 - [Games](games)
 
+- [Hardware](hardware)
+
 - [Programming](programming)
 
 - [Software](software)
