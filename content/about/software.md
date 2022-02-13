@@ -10,7 +10,7 @@ type: page
 
 - **Shell**: Fish
 
-- **Terminal**: Konsole, Yakuake
+- **Terminal**: Konsole
 
 - **File manager**: Dolphin
 
@@ -18,7 +18,7 @@ type: page
 
 - **Text editor**: Kate, [Vim](https://git.exozy.me/Ta180m/dotfiles/src/branch/main/.vimrc), [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
 
-- **Office**: [Nextcloud](https://cloud.exozy.me), LibreOffice
+- **Office**: [Nextcloud](https://cloud.exozy.me)
 
 - **Mail client**: Thunderbird
 
@@ -28,9 +28,9 @@ type: page
 
 - **Cloud storage**: [Nextcloud Files](https://cloud.exozy.me/apps/files/)
 
-- **Music**: [Jellyfin](https://media.exozy.me/)
+- **Music**: VLC, [Jellyfin](https://media.exozy.me/)
 
-- **Video and streaming**: OBS Studio, [PeerTube](https://tube.exozy.me/)
+- **Video and streaming**: ffmpeg, [PeerTube](https://tube.exozy.me/)
 
 - **Virtualization**: QEMU/KVM, Podman
 
