@@ -2,11 +2,19 @@ clone:
   git:
     image: bash
     commands:
-      - git clone --recursive https://git.exozy.me/Ta180m/website.git
+      - mkdir -p /var/lib/woodpecker-agent/Ta180m
+      - cd /var/lib/woodpecker-agent/Ta180m
+      - if [ -d website ]; then
+      -   cd website
+      -   git pull
+      -   git submodule update
+      - else
+      -   git clone --recursive https://git.exozy.me/Ta180m/website.git
+      - fi
 
 pipeline:
   build:
     image: bash
     commands:
-      - cd website
+      - cd /var/lib/woodpecker-agent/Ta180m/website
       - hugo --minify --destination /srv/http/pages/ta180m
