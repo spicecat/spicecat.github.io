@@ -10,7 +10,7 @@ tags: ["linux", "web", "self-hosting"]
 
 *Disclaimer: This post is boring. You should read [Installing Every Arch Package](/posts/installing-every-arch-package) instead.*
 
-So, about that other post... it kind of blew up on [multiple](https://www.reddit.com/r/archlinux/comments/shj0qe/installing_every_arch_package/) [subreddits](https://www.reddit.com/r/linux/comments/shxq12/installing_every_arch_package/), [Hacker News](https://news.ycombinator.com/item?id=30160191), [Lobsters](https://lobste.rs/s/yjwniu/installing_every_arch_package), [Tildes](https://tildes.net/~comp/109h), and more. People have already made YouTube videos of it. I even received spam emails about it. During those 8 hours, my website received more traffic than everything before that combined.
+So, about that other post... it kind of blew up on [multiple](https://www.reddit.com/r/archlinux/comments/shj0qe/installing_every_arch_package/) [subreddits](https://www.reddit.com/r/linux/comments/shxq12/installing_every_arch_package/), [Hacker News](https://news.ycombinator.com/item?id=30160191), [Lobsters](https://lobste.rs/s/yjwniu/installing_every_arch_package), [Tildes](https://tildes.net/~comp/109h), [OSnews](https://www.osnews.com/story/134518/installing-every-arch-package/), and more. People have already made YouTube videos of it. I even received spam emails about it. During those 8 hours, my website received more traffic than everything before that combined.
 
 Meanwhile, I was busy sleeping. Seriously. I didn't expect *at all* that this would happen. My website has (or more accurately, had) about five, plus or minus 10, regular readers, and I was entirely unprepared for the chaos...
 
