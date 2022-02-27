@@ -30,3 +30,6 @@ type: page
 
 `echo "source .bashrc" >> .bashrc`  
 \- Randall Munroe
+
+"The universe tends toward maximum irony. Don't push it."  
+\- Jamie Zawinski
