@@ -24,4 +24,4 @@ type: page
 
 9. **Wii Sports (7/10)**: A really fun game that pretty much anyone can play. I have way too many memories playing this as a kid...
 
-10. **Oh My Git! (7/10)**: I legitimately learned Git by playing this game. Well yeah, I knew some basic Git already, but it does a wonderful job of visually representing what's going on, which is especially helpful for learning things like the dreaded `git merge`. Just like Kerbal Space Program, this really shows how powerful games can be for learning new things.
+10. **Oh My Git! (7/10)**: I legitimately learned Git by playing this game. Well yeah, I knew some basic Git already, but it does a wonderful job of visually representing what's going on, which is especially helpful for learning things like the dreaded `git merge`. Really shows how powerful games can be for learning new things!
