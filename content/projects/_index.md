@@ -14,6 +14,8 @@ type: page
 
 - [exozyme](https://exozy.me)
 
-- [Ladue Computer Science](https://laduecs.github.io/)
+- [Ladue Computer Science](https://laduecs.github.io)
 
-- [Phonica](https://www.phonica.org/)
+- [Phonica](https://www.phonica.org)
+
+- [howtuwu!](https://howtuwu.exozy.me)
