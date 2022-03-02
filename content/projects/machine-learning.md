@@ -4,4 +4,4 @@ type: page
 ---
 
 
-Nothing yet, coming soon!
+- [ebooks](https://git.exozy.me/Ta180m/ebooks): Fediverse ebooks bot using neural networks
