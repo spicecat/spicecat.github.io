@@ -37,7 +37,7 @@ We could resolve all the conflicts manually with an hour of work... or we could 
 
 ## Time for some algorithms!
 
-It's time to put our algorithms knowledge to good use. This is *just* a graph We can think of each package as a node in a graph and each conflict is an edge. Since we don't care about dependency checks (which would make for a likely broken system but who cares), we don't need to add any other edges to the graph.
+It's time to put our algorithms knowledge to good use. This is *just* a graph! We can think of each package as a node in a graph and each conflict is an edge. Since we don't care about dependency checks (which would make for a likely broken system but who cares), we don't need to add any other edges to the graph.
 
 For each edge, we need to pick at most one package, but not both. That sounds a lot like a [maximum independent set](https://en.wikipedia.org/wiki/Maximum_independent_set)!
 
