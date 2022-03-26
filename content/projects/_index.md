@@ -12,6 +12,8 @@ type: page
 
 - [Machine Learning](machine-learning)
 
+- [Fediverse](fediverse)
+
 - [exozyme](https://exozy.me)
 
 - [Ladue Computer Science](https://laduecs.github.io)
