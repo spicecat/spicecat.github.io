@@ -21,6 +21,6 @@ type: page
 | Calculator | TI-84 Plus CE | Cesium | 48 MHz Zilog eZ80 | None | 4 MB |
 | Calculator | TI-Nspire CX CAS (rev w) | Ndless | 132 MHz ARM9-26EJ-S | None | 64 MB |
 | Phone | Apple iPhone 4S | Jailbroken iOS | 1.0 GHz ARM Cortex-A9 | 200 MHz PowerVR SGX543MP2 | 512 MB |
-| Calculator | TI-84 Plus SE | Stock OS | 15 MHz Zilog Z80 | None | 128 KB |
+| Calculator | TI-84 Plus SE | TI-OS | 15 MHz Zilog Z80 | None | 128 KB |
 | Console | Nintendo Wii | Homebrew Channel | 729 MHz IBM PowerPC Broadway | 243 MHz ATI Hollywood | 88 MB |
 | Console | Nintendo DSi | hiyaCFW | 133 MHz ARM9 | None | 16 MB |
