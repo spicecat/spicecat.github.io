@@ -8,8 +8,8 @@ Check out [my projects](/projects) for major programming projects.
 
 Programming languages that I know:
 
-- **A lot**: C++, Python, Julia
+- **A lot**: C++, Python, Julia, Go
 
-- **Some**: C, Java, HTML, CSS, JavaScript, Haskell, Go, Rust, SQL, Bash, Fish, LaTeX, Nix, SageMath, P4
+- **Some**: C, LaTeX, Bash, Fish, SageMath, Java, HTML, CSS, JavaScript, SQL, P4, Haskell, Rust
 
-- **A little bit**: Lisp, Lua, C#, PHP, Perl, R, Ruby
+- **A little bit**: Lisp, Perl, Ruby, PHP, R, C#, Lua, Nix
