@@ -4,7 +4,9 @@ type: page
 ---
 
 
-Hi! I'm Anthony Wang, a random math and CS enthusiast from St. Louis, Misery (er, I meant Missouri). Here are some useless facts that you definitely didn't know before reading this:
+Hi! I'm Anthony Wang, some random math and CS enthusiast from St. Louis, Misery (er, I meant Missouri).
+
+Here are some useless facts about me that you definitely didn't know before reading this:
 
 - I've had five blogs and six email addresses over the past few years.
 
@@ -16,7 +18,7 @@ Hi! I'm Anthony Wang, a random math and CS enthusiast from St. Louis, Misery (er
 
 - Some people abhor my writing style.
 
-- I wasted an hour messing with the MIT Kerberos registration backend to get around the frontend's limitation of 3 character usernames to register the aesthetically perfect username of `xy`.
+- I wasted an hour messing with the MIT Kerberos registration website to get around the frontend's limitation of 3 character usernames, and registered the aesthetically perfect username of `xy`.
 
 If you'd like to waste your time too, here are some more black holes to get sucked into.
 
