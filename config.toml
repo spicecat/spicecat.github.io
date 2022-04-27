@@ -44,9 +44,9 @@ theme = 'gokarna'
 [params]
   avatarURL = '/dodecahedra/logo.webp'
   avatarSize = 'size-xl'
-  description = 'Hello! I’m Anthony Wang, a programming, math, and science enthusiast!'
+  description = '(Element 73) + (τ/2 radians to degrees) + (SI unit for length)'
   accentColor = '#00dd42'
-  footer = 'Made with ❤️ by Ta180m - CC BY-SA 4.0'
+  footer = 'Made with Hugo and frustration! - CC BY-SA 4.0'
   socialIcons = [
       {name = 'protonmail', url = '/about/email'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
