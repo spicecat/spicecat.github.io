@@ -1,5 +1,5 @@
 ---
-title: "Random Quotes"
+title: "Quotes I Like"
 type: page
 ---
 

@@ -16,11 +16,9 @@ type: page
 
 - **Web browser**: Firefox
 
-- **Text editor**: Kate, [Vim](https://git.exozy.me/Ta180m/dotfiles/src/branch/main/.vimrc), [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
+- **Text editor**: [Vim](https://git.exozy.me/Ta180m/dotfiles/src/branch/main/.vimrc), Micro, [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
 
 - **Office**: [Nextcloud](https://cloud.exozy.me)
-
-- **Mail client**: Thunderbird
 
 - **Notes**: Xournal++, [Nextcloud Notes](https://cloud.exozy.me/apps/notes/)
 

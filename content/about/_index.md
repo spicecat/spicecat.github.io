@@ -22,16 +22,16 @@ Here are some useless facts about me that you definitely didn't know before read
 
 If you'd like to waste your time too, here are some more black holes to get sucked into.
 
-- [Books](books)
+- [Books I like](books)
 
-- [Games](games)
+- [Games I like](games)
 
-- [Hardware](hardware)
+- [Hardware I've owned](hardware)
 
-- [Programming](programming)
+- [Languages I know](languages)
 
-- [Software](software)
+- [Software I use](software)
 
-- [Quotes](quotes)
+- [Quotes I like](quotes)
 
 And if you reading this, that means that special patterns in my biological neural networks transcribed into UTF-8 encoded strings contained within Markdown documents converted into HTML and CSS by [Hugo](https://gohugo.io) with the [Gokarna theme](https://github.com/526avijitgupta/gokarna) deployed to [exozyme](https://exozy.me) using [Woodpecker CI](https://woodpecker-ci.org) transmitted to your machine over HTTP and rendered and displayed on your screen have now created special patterns in your biological neural networks. Awesome, telepathy!
