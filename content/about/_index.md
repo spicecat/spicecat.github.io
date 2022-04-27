@@ -14,7 +14,7 @@ Here are some useless facts about me that you definitely didn't know before read
 
 - I love [breaking Arch Linux machines](/posts/installing-every-arch-package/) and hate running my [Arch Linux server](https://exozy.me).
 
-- I enjoy violating the [Discord](/posts/installing-every-arch-package/) TOS every day.
+- I enjoy violating the [Discord](/posts/dont-use-discord/) TOS every day.
 
 - Some people abhor my writing style.
 
