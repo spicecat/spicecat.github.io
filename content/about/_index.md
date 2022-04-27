@@ -8,7 +8,7 @@ Hi! I'm Anthony Wang, some random math and CS enthusiast from St. Louis, Misery 
 
 Here are some useless facts about me that you definitely didn't know before reading this:
 
-- I've had five blogs and six email addresses over the past few years.
+- I've had [five](https://artofproblemsolving.com/community/c726379) [blogs](https://git.exozy.me/Ta180m/blog) and six email addresses over the past few years.
 
 - I have a book autographed by the infamous Richard Stallman himself.
 
@@ -16,7 +16,7 @@ Here are some useless facts about me that you definitely didn't know before read
 
 - I enjoy violating the [Discord](/posts/dont-use-discord/) TOS every day.
 
-- Some people abhor my writing style.
+- Obviously, some people abhor my writing style.
 
 - I'm developing ActivityPub federation for [Gitea](https://gitea.com/Ta180m/gitea).
 
