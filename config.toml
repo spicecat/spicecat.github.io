@@ -56,4 +56,5 @@ theme = 'gokarna'
       {name = 'github', url = 'https://github.com/Ta180m/'},
       {name = 'codeforces', url = 'https://codeforces.com/profile/Ta180m'},
       {name = 'archlinux', url = 'https://aur.archlinux.org/packages/?K=Ta180m&SeB=m'},
+      {name = 'liberapay', url = 'https://liberapay.com/Ta180m/'},
     ]
