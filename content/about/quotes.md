@@ -33,6 +33,3 @@ type: page
 
 "The universe tends toward maximum irony. Don't push it."  
 \- Jamie Zawinski
-
-"Listen... I do enjoy me a nice anime girl every so often... but that DOES NOT mean im a weeb. strictly speaking im like halfway there..."  
-\- notsam, from the exozyme chat
