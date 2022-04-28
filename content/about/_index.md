@@ -18,7 +18,7 @@ Here are some useless facts about me that you definitely didn't know before read
 
 - Obviously, some people abhor my writing style.
 
-- I'm developing ActivityPub federation for [Gitea](https://gitea.com/Ta180m/gitea).
+- I'm currently exploring federated and decentralized systems and developing ActivityPub federation for [Gitea](https://gitea.com/Ta180m/gitea).
 
 - I'm sleeping right now with 1/3 probability.
 
