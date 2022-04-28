@@ -30,7 +30,7 @@ If you'd like to waste your time too, here are some more black holes to get suck
 
 - [Games I like](games)
 
-- [Hardware I've owned](hardware)
+- [Hardware I use](hardware)
 
 - [Languages I know](languages)
 
