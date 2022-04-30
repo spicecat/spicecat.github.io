@@ -4,7 +4,7 @@ type: page
 ---
 
 
-- **Operating System**: [Arch Linux](/posts/i-btw-use-arch)
+- **Operating System**: GNU Guix System, Arch Linux (for servers)
 
 - **Desktop environment**: [KDE Plasma](https://www.dedoimedo.com/computers/plasma-desktop-awesome.html)
 
