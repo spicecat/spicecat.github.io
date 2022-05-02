@@ -13,13 +13,13 @@ It's time to go full circle! I first started planning my build using [Logical In
 
 Here's some anticlimactic images of the completed build:
 
-![Image 1](/images/finished-build.jpg)
+![Image 1](/img/finished-build.jpg)
 
-![Image 2](/images/finished-build2.jpg)
+![Image 2](/img/finished-build2.jpg)
 
-![Image 3](/images/finished-build3.jpg)
+![Image 3](/img/finished-build3.jpg)
 
-![Image 4](/images/finished-build4.jpg)
+![Image 4](/img/finished-build4.jpg)
 
 Here's the writeup that I did for the build:
 

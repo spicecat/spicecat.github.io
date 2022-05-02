@@ -15,7 +15,7 @@ Let's start with the term "bloat". What does it even mean? Wikipedia offers a fe
 
 What about package counts?
 
-![Wise words](/images/package-count.png)
+![Wise words](/img/package-count.png)
 
 It's actually really easy to get a very low package count: just install Windows and you can brag about having zero packages installed. Beat that!
 

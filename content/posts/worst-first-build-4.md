@@ -13,7 +13,7 @@ The [Great GPU Shortage](https://www.digitaltrends.com/computing/gpu-shortage-q3
 
 But finish my build I did, with a GPU that ended up costing a grand total of... **$0**. (OK, maybe a dollar for the gas I used, but it was basically free.) How'd I do it? It's actually surprising simple.
 
-![Easy free GPU](/images/free-gpu.png)
+![Easy free GPU](/img/free-gpu.png)
 
 1. Join a Discord with people in your area. (I normally don't recommend Discord since it's a privacy nightmare, but welp, [network effects!](https://en.wikipedia.org/wiki/Network_effect))
 

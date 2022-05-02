@@ -19,7 +19,7 @@ Yeah, if you were expecting something big, another huge leap forward, this updat
 
 However, Plasma 5.22 did manage to shrink the clock on the panel, so it's now harder to read. Of course, the screenshot below still makes it seem big.
 
-![The clock shrunk!](/images/clock.png)
+![The clock shrunk!](/img/clock.png)
 
 Also, there was a "Reboot to apply updates" icon in the system tray after every boot that started showing up, but the following commands fixed it. Warning: it will reboot your computer.
 

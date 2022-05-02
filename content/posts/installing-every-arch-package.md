@@ -7,7 +7,7 @@ tags: ["linux", "fun", "algorithms", "computer-science"]
 ---
 
 
-![A stupid idea on Matrix](/images/install-every-arch-package-matrix.png)
+![A stupid idea on Matrix](/img/install-every-arch-package-matrix.png)
 
 Challenge accepted. Let's do it!
 
@@ -232,15 +232,15 @@ Alright, let's reboot and check out our new and improved Arch Linux system!
 
 The first obstacle that we encounter is that most display managers, with the exception of [LXDM](https://wiki.archlinux.org/title/LXDM), don't have a scrollbar for selecting the desktop session (Because when would you ever have that many sessions installed?). So, let's `sudo systemctl start lxdm` and choose one of the 44 desktop sessions to explore.
 
-![A very bloated LXDM](/images/bloated-lxdm.webp)
+![A very bloated LXDM](/img/bloated-lxdm.webp)
 
 Surprisingly, KDE Plasma starts up pretty snappily, but 10 different background services also popped up in the system tray. Memory usage is pretty high, but what can you expect? We also have over 30 different terminals to choose from for our `neofetch` screenshot.
 
-![A very bloated KDE](/images/bloated-kde.webp)
+![A very bloated KDE](/img/bloated-kde.webp)
 
 Now let's have some real fun with this system:
 
-![All apps](/images/all-apps.webp)
+![All apps](/img/all-apps.webp)
 
 Endless fun!
 

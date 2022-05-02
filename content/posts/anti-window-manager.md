@@ -20,6 +20,6 @@ export QT_QPA_PLATFORM=wayland
 
 Now enjoy your super unbloated standalone compositing Wayland window manager with `kwin_wayland konsole`. Need XWayland? To add that extra bloat, just pass the `--xwayland` flag.
 
-![KWin standalone](/images/kwin-standalone.png)
+![KWin standalone](/img/kwin-standalone.png)
 
 All set! Now you can flex your very unbloated WM in all of its glory. It's Wayland, too! Now try getting some work done...

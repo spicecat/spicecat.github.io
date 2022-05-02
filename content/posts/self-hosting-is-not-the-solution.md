@@ -29,7 +29,7 @@ That said, for the small niche of self-hosting enthusiasts, it's fun, thrilling,
 
 ## So what now?
 
-![Gitea](/images/gitea.png)
+![Gitea](/img/gitea.png)
 
 Well, Gitea actually provides us with a good step in the right direction. Gitea has a feature to *mirror* repositories from GitHub to your self-hosted instance, so it's not too difficult to mirror your entire GitHub user to Gitea. You can self host *and* reap the benefits of GitHub's [network effect](https://en.wikipedia.org/wiki/Network_effect) at the same time. And if your GitHub repos were ever to get taken down like [youtube-dl](https://github.com/github/dmca/pull/8127), you'll still have all the perks of self-hosting a mirror.
 
