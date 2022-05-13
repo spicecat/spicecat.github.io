@@ -17,3 +17,5 @@ type: page
 - **The Code Book - Simon Singh**: The book that got me into cryptography, except I lost it after a week after bringing it everywhere.
 
 - **The Hitchhiker's Guide to the Galaxy - Douglas Adams**: A book so creative that it defies the limits of human creativity. Seriously, read this if you want every 42 joke to actually make sense.
+
+- **Gödel, Escher, Bach - Douglas Hofstadter**: An amazing math book that I received as a present recently even though I'd already read the book a few years ago. Oh well.
