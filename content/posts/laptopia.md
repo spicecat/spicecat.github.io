@@ -41,6 +41,8 @@ It dropped me right into AwesomeWM, which I still don't know how to use, so I ju
 
 Except yeah, it was GNOME so 🤮.
 
+Oh, and the charger was also defective, adding the perfect cherry on top. Although fortunately, it's a USB-C charger so I have plenty of those.
+
 So what can I say? Maybe one day when Guix gets KDE Plasma properly packaged, I can achieve my dream of the perfect Guix + KDE Plasma + Wayland + all the other cool stuff laptop, but I don't even use any of the cool and powerful Guix features on my laptop (they'd be immensely useful on a server though). Maybe next time, maybe next time.
 
 If you got so far, maybe you well expecting a nice laptop utopia at the end. But nope, life just gets in the way and we can't have nice things. Well, actually we can, if you just accept [boring tech](https://boringtechnology.club/) as good enough. Installing Arch + KDE Plasma + X11 + ext4 + PulseAudio right now and I don't regret it!!!
