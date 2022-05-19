@@ -7,11 +7,11 @@ tags: ["linux", "arch", "nixos", "humor"]
 ---
 
 
-To make a short story shorter, I had to return the [ThinkPad X1 Yoga Gen 6](laptopia) due to some manufacturing defects, but based on how high quality ThinkPads are, I got a replacement which was otherwise the same apart from more RAM, a larger disk, and an amazing 4K display. A 4K display on a 14 inch laptop is a glorious thing: it puts any other display to shame, you start seeing blurriness everywhere else you look, and your battery drains torrentially like it's on it's final cycle. More about that fantastic display later.
+To make a short story shorter, I had to return the [ThinkPad X1 Yoga Gen 6](/posts/laptopia) due to some manufacturing defects, but based on how high quality ThinkPads are, I got a replacement which was otherwise the same apart from more RAM, a larger disk, and an amazing 4K display. A 4K display on a 14 inch laptop is a glorious thing: it puts any other display to shame, you start seeing blurriness everywhere else you look, and your battery drains torrentially like it's on it's final cycle. More about that fantastic display later.
 
 Before returning the "defective" ThinkPad, I think I committed at least a hundred crimes against that computer, such as breaking a freshly installed SUS lizard distro installation in only five minutes, or [theming KDE Plasma into Windows 11](https://social.exozy.me/@ta180m/108320859908513575). *Simple by default. Powerful by choice.* Wait...
 
-It was fun while it lasted, but it also felt like one of the [most efficient time wasting sessions](installing-every-arch-package) I've had in a long time.
+It was fun while it lasted, but it also felt like one of the [most efficient time wasting sessions](/posts/installing-every-arch-package) I've had in a long time.
 
 Anyways, when the laptop arrived, the first thing I did was disable secure boot because the sole purpose of secure boot is to make sure your computer feel safe that you won't suddenly torture it by installing some weird Linux distro on it. I booted up an Arch live ISO, because everyone these days has one in their pocket now, and started `archinstall`, the April Fool's day joke that actually turned out to be a good idea.
 
@@ -93,7 +93,7 @@ Now I can see you all screaming at the obviously wrong choices that I made in th
 
 PipeWire and systemd-boot need no explanation because they are universally considered the best, especially since Arch users are all systemdphiles; otherwise they'd use Artix.
 
-Now for the desktop environment, you all are probably all trying to shill your favorite WM at the moment, but let me enlighten you: DEs are WMs too. If your most hated DE didn't have a WM, it would just display a single app at all times, and they obviously don't do that, with the exception of GNOME which as far as I know, GNOME has absolutely zero configurability and thefore zero interactibility. So there you go. DEs are just WMs that very dumb and very smart Arch users use. As for KDE, I'm a [KDE contributor](fixing-bugs-isnt-hard) so I'm legally obligated to use KDE. No exceptions.
+Now for the desktop environment, you all are probably all trying to shill your favorite WM at the moment, but let me enlighten you: DEs are WMs too. If your most hated DE didn't have a WM, it would just display a single app at all times, and they obviously don't do that, with the exception of GNOME which as far as I know, GNOME has absolutely zero configurability and thefore zero interactibility. So there you go. DEs are just WMs that very dumb and very smart Arch users use. As for KDE, I'm a [KDE contributor](/posts/fixing-bugs-isnt-hard) so I'm legally obligated to use KDE. No exceptions.
 
 For the graphics drivers, I was very tempted to try the newly open-sourced Nvidia drivers, but I figured I probably wouldn't have much to talk about given my lack of Nvidia hardware.
 
