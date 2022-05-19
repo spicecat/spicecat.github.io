@@ -3,6 +3,8 @@ title: "CCP Keemstar"
 date: 2022-05-18T21:30:03-05:00
 draft: true
 description: "Online streamer Keemstar apologizes to the CCP after... oh wait..."
+type: "page"
+tags: ["humor", "politics", "china", "computer-science", "fun"]
 ---
 
 
