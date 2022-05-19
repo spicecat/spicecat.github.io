@@ -4,7 +4,7 @@ type: page
 ---
 
 
-- **Operating System**: GNU Guix System, Arch Linux (for servers)
+- **Operating System**: Arch Linux
 
 - **Desktop environment**: [KDE Plasma](https://www.dedoimedo.com/computers/plasma-desktop-awesome.html)
 
@@ -16,7 +16,7 @@ type: page
 
 - **Web browser**: Firefox
 
-- **Text editor**: [Vim](https://git.exozy.me/Ta180m/dotfiles/src/branch/main/.vimrc), Micro, [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
+- **Text editor**: Micro, [Vim](https://git.exozy.me/Ta180m/dotfiles/src/branch/main/.vimrc), [Code - OSS](https://stackoverflow.com/questions/53867739/differences-between-code-oss-and-visual-studio-code)
 
 - **Office**: [Nextcloud](https://cloud.exozy.me)
 
@@ -24,11 +24,9 @@ type: page
 
 - **Chat**: [Element](https://cloud.exozy.me/apps/riotchat/)
 
-- **Cloud storage**: [Nextcloud Files](https://cloud.exozy.me/apps/files/)
-
 - **Music**: VLC, [Jellyfin](https://media.exozy.me/)
 
-- **Video and streaming**: ffmpeg, [PeerTube](https://tube.exozy.me/)
+- **Video**: [PeerTube](https://tube.exozy.me/)
 
 - **Virtualization**: QEMU/KVM, Podman
 
