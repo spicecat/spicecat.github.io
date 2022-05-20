@@ -1,5 +1,5 @@
 ---
-title: "Pac-Man for TI Calculators
+title: "Pac-Man for TI Calculators"
 date: 2018-11-01T15:39:00
 draft: true
 type: "post"
