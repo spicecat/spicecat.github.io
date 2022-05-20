@@ -1,5 +1,5 @@
 ---
-title: "ChessCE!https://git.exozy.me/Ta180m/Calculators/src/branch/master"
+title: "ChessCE!"
 date: 2018-12-05T17:07:00
 draft: true
 type: "post"
