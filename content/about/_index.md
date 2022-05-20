@@ -8,9 +8,9 @@ Hi! I'm Anthony Wang, some random math and CS enthusiast from St. Louis, Misery 
 
 Here are some useless facts about me that you definitely didn't know before reading this:
 
-- I've had [five](https://artofproblemsolving.com/community/c726379) [blogs](https://git.exozy.me/Ta180m/blog) and six email addresses over the past few years.
+- I've had [five](https://artofproblemsolving.com/community/c726379) [blogs](https://git.exozy.me/Ta180m/blog) and six email addresses over the past few years. I wasted a few hours copying every blog post I ever wrote to this website, but the older posts use BBCode and I was too tired to convert them to Markdown.
 
-- I have a book autographed by the infamous Richard Stallman himself.
+- I have the book *Free Software, Free Society* (first edition) autographed by the infamous Richard Stallman himself.
 
 - I love [breaking Arch Linux machines](/posts/installing-every-arch-package/) and hate running my [Arch Linux server](https://exozy.me).
 
