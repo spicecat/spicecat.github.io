@@ -1,7 +1,6 @@
 ---
 title: "The Day After"
 date: 2022-02-01T12:16:38-06:00
-draft: true
 description: "Things I learned from installing every Arch package"
 type: "post"
 tags: ["linux", "web", "self-hosting"]

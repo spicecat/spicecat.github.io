@@ -1,7 +1,6 @@
 ---
 title: "WSL 2 GNOME Desktop"
 date: 2020-07-30
-draft: true
 description: "Set up a GNOME desktop environment on WSL 2"
 type: "post"
 tags: ["Windows", "WSL", "Linux"]

@@ -1,7 +1,6 @@
 ---
 title: "Fun with QEMU/KVM! - The Sequel"
 date: 2021-01-07
-draft: true
 type: "post"
 tags: ["Linux", "Virtualization"]
 ---
@@ -10,7 +9,7 @@ tags: ["Linux", "Virtualization"]
 *Originally posted on my [old blog](https://git.exozy.me/Ta180m/blog/src/branch/main/_posts/2021-01-07-fun-with-qemu-kvm-2.md)*
 
 
-![Linux Mint with 255 cores](/blog/assets/mint-255-cores.png)
+![Linux Mint with 255 cores](/img/mint-255-cores.png)
 
 As far as I know, there aren't any 255 core processors on the market. Yet. But that doesn't stop us from making a virtual machine using [QEMU/KVM](/blog/2020/11/18/fun-with-qemu-kvm.html) and [SMP](https://en.wikipedia.org/wiki/Symmetric_multiprocessing) with an absurd number of processors, as shown above.
 

@@ -1,7 +1,6 @@
 ---
 title: "Switching to Linux"
 date: 2020-08-11
-draft: true
 description: "Thoughts of a lifelong Windows user switching to Linux (draft)"
 type: "post"
 ---

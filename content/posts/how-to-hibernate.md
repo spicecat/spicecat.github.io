@@ -1,7 +1,6 @@
 ---
 title: "How to Hibernate"
 date: 2021-01-04
-draft: true
 type: "post"
 tags: ["Linux"]
 ---

@@ -1,7 +1,6 @@
 ---
 title: "TI-Nspire ASCII Art!"
 date: 2018-11-09T09:14:00
-draft: true
 type: "post"
 ---
 

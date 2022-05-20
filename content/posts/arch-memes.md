@@ -1,6 +1,7 @@
 ---
 title: "Arch Memes"
 date: 2020-10-04
+draft: true
 type: "post"
 tags: ["Linux"]
 ---

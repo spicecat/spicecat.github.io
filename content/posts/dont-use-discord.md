@@ -2,7 +2,7 @@
 title: "Don't Use Discord"
 date: 2021-06-29T20:16:40-05:00
 description: "Discord doesn't give a shit about your privacy"
-type: post
+type: "post"
 tags: ["privacy", "decentralization"]
 ---
 

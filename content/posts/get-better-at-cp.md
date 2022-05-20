@@ -1,7 +1,6 @@
 ---
 title: "How to Get Better at CP"
 date: 2021-02-22
-draft: true
 description: "How to get better at competitive programming with this weird trick! "
 type: "post"
 ---

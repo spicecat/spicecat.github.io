@@ -1,7 +1,6 @@
 ---
 title: "Random Tidbits"
 date: 2020-10-28
-draft: true
 type: "post"
 tags: ["Random", "Linux"]
 ---
@@ -12,7 +11,7 @@ tags: ["Random", "Linux"]
 
 ## Play videos in your terminal!
 
-![On YouTube](/blog/assets/tux-video.png){: height="300px" } ![In a terminal](/blog/assets/tux-text.png){: height="300px" }
+![On YouTube](/img/tux-video.png){: height="300px" } ![In a terminal](/img/tux-text.png){: height="300px" }
 
 Assuming you have mpv, just run `CACA_DRIVER=ncurses mpv -vo=caca *path_to_video*`.
 

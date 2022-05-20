@@ -1,7 +1,6 @@
 ---
 title: "Ndless: Jailbreak Your TI-Nspire"
 date: 2018-09-16T17:14:00
-draft: true
 type: "post"
 ---
 
