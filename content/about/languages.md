@@ -6,10 +6,8 @@ type: page
 
 Programming languages that I know:
 
-- **A lot**: C++, Python, Julia, Go, C
+- **A lot**: Python, JavaScript, Java, HTML, C++
 
-- **Some**: LaTeX, Bash, Fish, SageMath, Java, HTML, CSS, JavaScript, SQL, P4, Haskell, Rust
-
-- **A little bit**: Lisp, Perl, Ruby, PHP, R, C#, Lua, Nix, Elixir
+- **Some**: CSS, LaTeX
 
 Check out [my projects](/projects) for major programming projects.
