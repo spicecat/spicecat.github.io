@@ -8,8 +8,6 @@ type: page
 
 - [Competitive Programming](competitive-programming)
 
-- [Homebrew](homebrew)
-
 - [Machine Learning](machine-learning)
 
 - [Fediverse](fediverse)
