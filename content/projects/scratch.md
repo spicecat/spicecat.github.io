@@ -1,5 +1,5 @@
 ---
-title: Machine Learning
+title: Scratch
 type: page
 ---
 

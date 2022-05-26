@@ -6,7 +6,7 @@ type: page
 
 ## Active
 
-1. **Clash Royale**: Highest trophies: 7385; Highest rank: 2054 [Clashingcat](https://royaleapi.com/player/920C228C) [f8ecf4](https://royaleapi.com/player/JPLV9VRVL)
+1. **Clash Royale**: F2P; Highest trophies: 7385; Highest rank: 2054 [Clashingcat](https://royaleapi.com/player/920C228C) [f8ecf4](https://royaleapi.com/player/JPLV9VRVL)
 
 2. **Minecraft**: [WhereisMyCat](https://plancke.io/hypixel/player/stats/whereismycat)
 
@@ -20,8 +20,8 @@ type: page
 
 6. **Polytopia**: kickoo theme best
 
-## Complete
+## Past
 
-7. **Ni No Kuni**
+7. **Ni No Kuni** 
 
-8. **Mario**
+8. **Suepr Mario Bros**

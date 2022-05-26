@@ -4,18 +4,16 @@ type: page
 ---
 
 
-- [Dodecahedra](dodecahedra)
+- [BDPA](bdpa)
 
 - [Competitive Programming](competitive-programming)
 
-- [Machine Learning](machine-learning)
+- [Research](research)
 
-- [Fediverse](fediverse)
+- [Scratch](scratch)
 
 - [exozyme](https://exozy.me)
 
 - [Ladue Computer Science](https://laduecs.github.io)
 
-- [Phonica](https://www.phonica.org)
-
-- [howtuwu!](https://howtuwu.exozy.me)
+- [Web Development](web-development)
