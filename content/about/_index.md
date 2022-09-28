@@ -4,7 +4,7 @@ type: page
 ---
 
 
-Hi! I'm not Anthony Wang, some random math and CS enthusiast.
+Hi! I'm Andy, a CS main and tryhard F2P gamer.
 
 Here are some useless facts about me that you definitely didn't know before reading this:
 
@@ -14,7 +14,7 @@ Here are some useless facts about me that you definitely didn't know before read
 
 - I'm currently exploring federated and decentralized systems and developing ActivityPub federation for [Gitea](https://gitea.com/Ta180m/gitea).
 
-- [Games I like](games)
+- [Games I play](games)
 
 - [Languages I know](languages)
 
