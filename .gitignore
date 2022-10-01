@@ -1,2 +1,5 @@
+.DS_Store
 public 
 .hugo_build.lock
+.ipynb_checkpoints
+*/.DS_Store
