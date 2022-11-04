@@ -20,7 +20,7 @@ Submission for [BDPA's 2021 National High School Coding Competition](https://git
 
 [BDPA Airports](https://spicecat.github.io/airports/)
 -
-A website for clients to view and book flights arriving and departing from a local BDPA airport.  
+A website for viewing and booking flights to and from a simuated local airport.  
 Submission for [BDPA's 2020 National High School Coding Competition](https://github.com/nhscc/problem-statements/tree/main/2020/airports)  
 [Frontend Source](https://github.com/spicecat/ghostmeme)  
 [Backend Source](https://github.com/spicecat/ghostmemebackend)

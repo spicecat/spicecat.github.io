@@ -1,13 +1,12 @@
 ---
-title: "Reserach"
+title: "Research"
 type: page
 ---
 
+[The Diffusion Equation in Image Processing Techniques](https://www.overleaf.com/read/hcpttrhfdyjm)
+- 
+Deriving the diffusion equation and demonstrating applications of the diffusion equation in image processing techniques. 
 
-![Deflate](/dodecahedra/origami-dodecahedron-adjusted.png)
-
-A dodecahedron folded out of a single sheet of paper! I loved exploring the geometry behind folding those 108-degree angles.
-
-![Image Processing](/dodecahedra/render-cropped.png)
-
-A nice dodecahedron that I made with Blender. Used as my profile picture everywhere.
+[Deflate](https://www.overleaf.com/read/fnxmqzkxgprd)
+- 
+Defining and demonstrating a lossless compressed data format using LZ77 and Huffman coding. 
