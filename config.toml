@@ -38,14 +38,16 @@ theme = 'gokarna'
 [params]
   avatarURL = '/spicecat.png'
   avatarSize = 'size-xl'
-  description = 'some cool stuff'
+  description = "spicecat's personal website"
   accentColor = '#00dd42'
-  footer = '🎉 Made with Hugo and frustration! - CC BY-SA 4.0'
+  footer = '🎉 Made with Hugo and advanced copy-pasting!'
   socialIcons = [
+      {name = 'github', url = 'https://github.com/spicecat/'},
+      {name = 'gitea', url = 'https://git.exozy.me/spicecat/'},
+      {name = 'discord', url = 'https://git.exozy.me/spicecat/'},
+      {name = 'scratch', url = 'https://scratch.mit.edu/users/PusheenGames23'},
+      {name = 'minecraft', url = 'https://royaleapi.com/player/920C228C'},
+      {name = 'chess', url = 'https://royaleapi.com/player/920C228C'},
+      {name = 'clashroyale', url = 'https://royaleapi.com/player/920C228C'},
       {name = 'protonmail', url = '/about/email'},
-      {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
-      {name = 'gitea', url = 'https://git.exozy.me/Ta180m/'},
-      {name = 'github', url = 'https://github.com/Ta180m/'},
-      {name = 'archlinux', url = 'https://aur.archlinux.org/packages/?K=Ta180m&SeB=m'},
-      {name = 'liberapay', url = 'https://liberapay.com/Ta180m/'},
     ]
