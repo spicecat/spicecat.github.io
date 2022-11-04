@@ -18,6 +18,13 @@ Submission for [BDPA's 2021 National High School Coding Competition](https://git
 [Frontend Source](https://github.com/spicecat/ghostmeme)  
 [Backend Source](https://github.com/spicecat/ghostmemebackend)
 
+[BDPA Airports](https://spicecat.github.io/airports/)
+-
+A website for clients to view and book flights arriving and departing from a local BDPA airport.  
+Submission for [BDPA's 2020 National High School Coding Competition](https://github.com/nhscc/problem-statements/tree/main/2020/airports)  
+[Frontend Source](https://github.com/spicecat/ghostmeme)  
+[Backend Source](https://github.com/spicecat/ghostmemebackend)
+
 [OpenContest](https://github.com/LadueCS/OpenContest)
 -
 OpenContest is a simple, open, and federated HTTPS JSON protocol to enable anyone to develop and host online programming contests!
