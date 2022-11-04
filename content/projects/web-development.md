@@ -1,11 +1,23 @@
 ---
-title: Fediverse
+title: Web Development
 type: page
 ---
 
 
-- [ebooks](https://git.exozy.me/Ta180m/ebooks): Fediverse ebooks bot using neural networks
 
-- [Gitea federation](https://github.com/Ta180m/gitea): ActivityPub federation for Gitea
+[qOverflow](https://spicecat.github.io/qoverflow/)
+-
+An online forum where members can ask and answer each other's questions, vote on answers, and self-moderate.  
+Submission for [BDPA's 2022 National High School Coding Competition](https://github.com/nhscc/problem-statements/tree/main/2022/qoverflow)  
+[Source](https://github.com/spicecat/qOverflow)
 
-- [OpenContest](https://github.com/LadueCS/OpenContest): OpenContest is a simple, open, and federated HTTPS JSON protocol to enable anyone to develop and host online programming contests!
+[Ghostmeme](https://spicecat.github.io/ghostmeme/)
+-
+A messaging app where users can send and receive public and private picture messages.  
+Submission for [BDPA's 2021 National High School Coding Competition](https://github.com/nhscc/problem-statements/tree/main/2021/ghostmeme)  
+[Frontend Source](https://github.com/spicecat/ghostmeme)  
+[Backend Source](https://github.com/spicecat/ghostmemebackend)
+
+[OpenContest](https://github.com/LadueCS/OpenContest)
+-
+OpenContest is a simple, open, and federated HTTPS JSON protocol to enable anyone to develop and host online programming contests!
