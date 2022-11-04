@@ -38,17 +38,14 @@ theme = 'gokarna'
 [params]
   avatarURL = '/spicecat.png'
   avatarSize = 'size-xl'
-  description = '(+ (Element 73) (τ/2 radians to degrees) (SI unit for length))'
+  description = 'some cool stuff'
   accentColor = '#00dd42'
   footer = '🎉 Made with Hugo and frustration! - CC BY-SA 4.0'
   socialIcons = [
       {name = 'protonmail', url = '/about/email'},
       {name = 'matrix', url = 'https://matrix.to/#/@ta180m:exozy.me'},
-      {name = 'mastodon', url = 'https://social.exozy.me/@ta180m'},
-      {name = 'peertube', url = 'https://tube.exozy.me/a/ta180m/video-channels'},
       {name = 'gitea', url = 'https://git.exozy.me/Ta180m/'},
       {name = 'github', url = 'https://github.com/Ta180m/'},
-      {name = 'codeforces', url = 'https://codeforces.com/profile/Ta180m'},
       {name = 'archlinux', url = 'https://aur.archlinux.org/packages/?K=Ta180m&SeB=m'},
       {name = 'liberapay', url = 'https://liberapay.com/Ta180m/'},
     ]
