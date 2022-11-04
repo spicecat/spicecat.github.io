@@ -1,30 +1,31 @@
 ---
-title: "Games I Play"
+title: "Games"
 type: page
 ---
 
+# Active
 
-## Active
-
-1. **Clash Royale**: F2P; Highest trophies: 7385; Highest rank: 2054; Drill main, lava/log bait secondary
+## Clash Royale
+F2P; Highest trophies: 7385; Highest rank: 2054; Drill main, lava/log bait secondary
 [Clashingcat](https://royaleapi.com/player/920C228C) [f8ecf4](https://royaleapi.com/player/JPLV9VRVL)
 
-2. **Minecraft**: daily arcade/duels quest grind; Skywars/CTW main
+## Minecraft
+daily arcade/duels quest grind; Skywars/CTW main
 [WhereisMyCat](https://plancke.io/hypixel/player/stats/whereismycat)
 
-4. **Genshin**: Rerolling 36 star 100k+ primo f2p god
+## Genshin Impact
+Rerolling 36 star 100k+ primo f2p god
 
-## Passive
+# Inactive
 
-3. **The Battle Cats**: EN JP seed tracker abuser
+## The Battle Cats
+EN JP seed tracker abuser
 
-5. **Chess**: highest rating (USCF): 1917
-[zippycollar](https://lichess.org/@/zippycollar) [USCF](https://www.uschess.org/msa/MbrDtlMain.php?15201162)
+## Chess
+highest rating (USCF): 1917
+[lichess](https://lichess.org/@/zippycollar)  
+[chess.com](https://www.chess.com/member/zippycollar)  
+[USCF](https://www.uschess.org/msa/MbrDtlMain.php?15201162)
 
-6. **Polytopia**: kickoo theme best
-
-## Past
-
-7. **Ni No Kuni** 
-
-8. **Suepr Mario Bros**
+## Polytopia
+kickoo theme best
