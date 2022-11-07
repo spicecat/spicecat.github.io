@@ -40,8 +40,7 @@ theme = 'gokarna'
       {name = 'gitea', url = 'https://git.exozy.me/spicecat/'},
       {name = 'discord', url = 'https://git.exozy.me/spicecat/'},
       {name = 'scratch', url = 'https://scratch.mit.edu/users/PusheenGames23'},
-      {name = 'minecraft', url = 'https://royaleapi.com/player/920C228C'},
-      {name = 'chess', url = 'https://royaleapi.com/player/920C228C'},
-      {name = 'clashroyale', url = 'https://royaleapi.com/player/920C228C'},
+      {name = 'lichess', url = 'https://royaleapi.com/player/920C228C'},
+      {name = 'royaleapi', url = 'https://royaleapi.com/player/920C228C'},
       {name = 'protonmail', url = '/about/email'},
     ]
