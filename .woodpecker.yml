@@ -2,19 +2,19 @@ clone:
   git:
     image: bash
     commands:
-      - mkdir -p /var/lib/woodpecker-agent/Ta180m
-      - cd /var/lib/woodpecker-agent/Ta180m
+      - mkdir -p /var/lib/woodpecker-agent/spicecat
+      - cd /var/lib/woodpecker-agent/spicecat
       - if [ -d website ]; then
       -   cd website
       -   git pull
       -   git submodule update
       - else
-      -   git clone --recursive https://git.exozy.me/Ta180m/website.git
+      -   git clone --recursive https://github.com/spicecat/spicecat.github.io.git
       - fi
 
 pipeline:
   build:
     image: bash
     commands:
-      - cd /var/lib/woodpecker-agent/Ta180m/website
-      - hugo --minify --destination /srv/http/pages/ta180m
+      - cd /var/lib/woodpecker-agent/spicecat/website
+      - hugo --minify --destination /srv/http/pages/spicecat
