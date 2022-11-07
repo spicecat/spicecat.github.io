@@ -11,27 +11,21 @@ theme = 'gokarna'
     pre = '<span data-feather="aperture"></span>'
     weight = 1
   [[menu.main]]
+    identifier = 'guides'
+    name = 'Guides'
+    url = '/guides/'
+    pre = '<span data-feather="book"></span>'
+    weight = 2
+  [[menu.main]]
     identifier = 'projects'
     name = 'Projects'
     url = '/projects/'
     pre = '<span data-feather="package"></span>'
     weight = 2
   [[menu.main]]
-    identifier = 'tags'
-    name = 'Tags'
-    url = '/tags/'
-    pre = '<span data-feather="tag"></span>'
-    weight = 3
-  [[menu.main]]
-    identifier = 'feed'
-    name = 'Feed'
-    url = '/index.xml'
-    pre = '<span data-feather="rss"></span>'
-    weight = 4
-  [[menu.main]]
     identifier = 'git'
     name = 'Git'
-    url = 'https://git.exozy.me/Ta180m/website'
+    url = 'https://github.com/spicecat/spicecat.github.io/'
     pre = '<span data-feather="git-pull-request"></span>'
     weight = 5
 

@@ -4,15 +4,7 @@ type: page
 ---
 
 
-Hi! I'm Andy, a CS main and tryhard F2P gamer.
-
-Here are some useless facts about me that you definitely didn't know before reading this:
-
-- I have the book *Free Software, Free Society* (first edition) autographed by the infamous Richard Stallman himself.
-
-- I love [breaking Arch Linux machines](/posts/installing-every-arch-package/) and hate running my [Arch Linux server](https://exozy.me).
-
-- I'm currently exploring federated and decentralized systems and developing ActivityPub federation for [Gitea](https://gitea.com/Ta180m/gitea).
+Hi! I'm Andy, a CS main and F2P gamer.
 
 - [Games I play](games)
 
