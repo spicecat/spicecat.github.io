@@ -11,7 +11,7 @@ F2P; Highest trophies: 7385; Highest rank: 2054; Drill main, lava/log bait secon
 
 ## Minecraft
 daily arcade/duels quest grind; Skywars/CTW main
-[WhereisMyCat](https://plancke.io/hypixel/player/stats/whereismycat)
+[WhereisMyCat](https://plancke.io/hypixel/player/stats/WhereisMyCat)
 
 ## Genshin Impact
 Rerolling 36 star 100k+ primo f2p god
