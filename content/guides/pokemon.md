@@ -4,4 +4,4 @@ description: "fast xp"
 type: "page"
 ---
 
-friends
+pokemongo friends for fastxp

@@ -1,7 +1,11 @@
 ---
 title: "Developer"
-description: "developer stuff"
+description: "cool apps"
 type: "page"
 ---
 
-wip
+- Proton VPN: free vpn
+
+- Opera: mouse gestures, workspaces
+
+- Extensions: Enhancer for YouTube, ProWritingAid, StudyTimer, uBlock Origin
