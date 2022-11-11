@@ -15,7 +15,7 @@ Royale Alchemist deck scout
 
 ## Minecraft
 
-1.8.9; arcade/duels quest grinding; Skywars/CTW main
+1.8.9; arcade/duels quest grinding; Skywars/CTW main; 7.5 cps normal clicking office mouse: reliant on secondaries
 [WhereisMyCat](https://plancke.io/hypixel/player/stats/WhereisMyCat)
 
 ## Genshin Impact
