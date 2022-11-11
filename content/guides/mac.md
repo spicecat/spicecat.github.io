@@ -1,7 +1,8 @@
 ---
 title: "macOS stuff"
+date: "2022-11-11"
 description: "apps"
-type: "page"
+type: "post"
 ---
 
 - [Rectangle](https://rectangleapp.com/): Move and resize windows in macOS using keyboard shortcuts or snap areas

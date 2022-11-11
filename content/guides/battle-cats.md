@@ -1,7 +1,8 @@
 ---
 title: "Battle Cats"
+date: "2022-11-11"
 description: "seed tracking"
-type: "page"
+type: "post"
 ---
 
 [seed tracking](https://bc-seek.godfat.org/seek) by Lin Jen-Shin  
