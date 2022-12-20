@@ -38,6 +38,7 @@ theme = 'gokarna'
   socialIcons = [
       {name = 'github', url = 'https://github.com/spicecat/'},
       {name = 'gitea', url = 'https://git.exozy.me/spicecat/'},
+      {name = 'mastodon', url = 'https://social.exozy.me/@spicecat'},
       {name = 'discord', url = 'https://git.exozy.me/spicecat/'},
       {name = 'scratch', url = 'https://scratch.mit.edu/users/PusheenGames23/'},
       {name = 'lichess', url = 'https://lichess.org/@/zippycollar/'},
