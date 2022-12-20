@@ -23,7 +23,7 @@ A visual demostration for constructing [Bézier curves](https://javascript.info/
 Learn to meow in 85 languages!
 
 ## [Compressed Cloud Encoder](https://scratch.mit.edu/projects/238658861/)
-![Compressed Cloud Encoder](https://uploads.scratch.mit.edu/get_image/project/238658861_480x360.png)
+![Compressed Cloud Encoder](/src/projects/scratch/compressed-cloud-encoder.gif)
 Compress text data using a modified Huffman Encoding algorithm. Useful for size-limited cloud variables. 
 
 ## [Rotating Pen Text Engine](https://scratch.mit.edu/projects/204166214/)
