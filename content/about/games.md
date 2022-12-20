@@ -7,8 +7,9 @@ type: page
 
 ## Clash Royale
 
-F2P; Highest trophies: 7385; Highest rank: 2054; Drill main, lava/log bait secondary
-[Clashingcat](https://royaleapi.com/player/920C228C) [f8ecf4](https://royaleapi.com/player/JPLV9VRVL)
+F2P; Highest trophies: 7385; Highest rank: 2054; Miner WB main/drill main, lava/log bait secondary
+[Clashingcat](https://royaleapi.com/player/920C228C)  [f8ecf4](https://royaleapi.com/player/JPLV9VRVL)  
+[N1c5xi](https://royaleapi.com/player/UGR9LGLRR)
 tips:
 Stats Royale replays  
 Royale Alchemist deck scout  
