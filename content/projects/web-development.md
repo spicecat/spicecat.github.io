@@ -3,11 +3,11 @@ title: Web Development
 type: page
 ---
 
-## [Royale Alchemist Web](https://spicecat.github.io/royale-alchemist/)
+## [Royale Alchemist Web](https://github.com/spicecat/http-discord-bridge)
 wip
-[Source](https://github.com/spicecat/qOverflow)
+[Source](https://github.com/spicecat/http-discord-bridge)
 
-## [qOverflow](https://spicecat.github.io/qoverflow/)
+## [qOverflow](https://spicecat.github.io/qQverflow/)
 An online forum where members can ask and answer each other's questions, vote on answers, and self-moderate.  
 Submission for [BDPA's 2022 National High School Coding Competition](https://github.com/nhscc/problem-statements/tree/main/2022/qoverflow)  
 [Source](https://github.com/spicecat/qOverflow)
